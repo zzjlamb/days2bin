@@ -25,7 +25,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(glowbit glowbit.c )
+add_executable(glowbit glowbit.c)
 
 pico_set_program_name(glowbit "glowbit")
 pico_set_program_version(glowbit "0.1")

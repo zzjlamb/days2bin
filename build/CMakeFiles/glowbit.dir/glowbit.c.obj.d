@@ -64,5 +64,5 @@ CMakeFiles/glowbit.dir/glowbit.c.obj: \
  /home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
  /home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
  /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
- /home/john/mypicow/glowbit/ws2812.pio.h /usr/include/newlib/malloc.h \
- /usr/include/newlib/machine/malloc.h
+ /home/john/mypicow/glowbit/ws2812.pio.h \
+ /home/john/mypicow/glowbit/font.h

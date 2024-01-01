@@ -34,6 +34,10 @@ CMakeFiles/glowbit.dir/glowbit.c.obj: /home/john/mypicow/glowbit/glowbit.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
   /home/john/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   /home/john/pico/pico-sdk/src/common/pico_base/include/pico.h \
   /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -2746,8 +2750,6 @@ CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/uni
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
-/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
 /home/john/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h:
@@ -2756,11 +2758,7 @@ CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/uni
 
 generated/pico_base/pico/config_autogen.h:
 
-/usr/include/newlib/math.h:
-
-/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
-
-/home/john/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
@@ -2782,18 +2780,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/john/mypicow/glowbit/glowbit.c:
 
-/usr/include/newlib/c++/12.2.1/cstdlib:
-
-/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/usr/include/newlib/inttypes.h:
-
-/usr/include/newlib/sys/_timespec.h:
-
-/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
-
-/usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h:
-
 /home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c:
 
 /home/john/pico/pico-sdk/src/rp2_common/hardware_exception/include/hardware/exception.h:
@@ -2803,6 +2789,14 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/machine/types.h:
 
 /home/john/mypicow/glowbit/font.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:
+
+/usr/include/newlib/sys/_locale.h:
+
+/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+
+/usr/include/newlib/string.h:
 
 /usr/include/newlib/sys/_stdint.h:
 
@@ -2819,6 +2813,14 @@ generated/pico_base/pico/config_autogen.h:
 /usr/lib/gcc/arm-none-eabi/12.2.1/include/stddef.h:
 
 /usr/include/newlib/sys/features.h:
+
+/home/john/pico/pico-sdk/src/common/pico_base/include/pico/assert.h:
+
+/usr/include/newlib/sys/string.h:
+
+/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
 /usr/include/newlib/sys/_timeval.h:
 
@@ -2912,11 +2914,33 @@ generated/pico_base/pico/version.h:
 
 /home/john/pico/pico-sdk/lib/cyw43-driver/firmware/w43439A0_7_95_49_00_combined.h:
 
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
+
+/usr/include/newlib/strings.h:
+
 /usr/include/newlib/sys/timespec.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
 /usr/include/newlib/sys/types.h:
+
+/usr/include/newlib/c++/12.2.1/cstdlib:
+
+/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/usr/include/newlib/sys/_timespec.h:
+
+/usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
+
+/usr/include/newlib/inttypes.h:
+
+/usr/include/newlib/math.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
+
+/home/john/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
@@ -2929,14 +2953,6 @@ generated/pico_base/pico/version.h:
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
-
-/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h:
-
-/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-/home/john/pico/pico-sdk/src/common/pico_base/include/pico/assert.h:
-
-/usr/include/newlib/sys/string.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
 
@@ -2977,18 +2993,6 @@ generated/pico_base/pico/version.h:
 /usr/include/newlib/sys/cdefs.h:
 
 /home/john/mypicow/glowbit/ws2812.pio.h:
-
-/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
-
-/usr/include/newlib/string.h:
-
-/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c:
-
-/usr/include/newlib/sys/_locale.h:
-
-pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
-
-/usr/include/newlib/strings.h:
 
 /home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43.h:
 

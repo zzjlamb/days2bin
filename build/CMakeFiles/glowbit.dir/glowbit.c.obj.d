@@ -17,7 +17,9 @@ CMakeFiles/glowbit.dir/glowbit.c.obj: \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
- /usr/include/newlib/alloca.h \
+ /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h \
  /home/john/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/john/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \

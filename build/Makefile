@@ -207,6 +207,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+DS3231.obj: DS3231.c.obj
+.PHONY : DS3231.obj
+
+# target to build an object file
+DS3231.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/DS3231.c.obj
+.PHONY : DS3231.c.obj
+
+DS3231.i: DS3231.c.i
+.PHONY : DS3231.i
+
+# target to preprocess a source file
+DS3231.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/DS3231.c.i
+.PHONY : DS3231.c.i
+
+DS3231.s: DS3231.c.s
+.PHONY : DS3231.s
+
+# target to generate assembly for a file
+DS3231.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/DS3231.c.s
+.PHONY : DS3231.c.s
+
 bus_scan.obj: bus_scan.c.obj
 .PHONY : bus_scan.obj
 
@@ -1654,6 +1678,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... glowbit"
+	@echo "... DS3231.obj"
+	@echo "... DS3231.i"
+	@echo "... DS3231.s"
 	@echo "... bus_scan.obj"
 	@echo "... bus_scan.i"
 	@echo "... bus_scan.s"

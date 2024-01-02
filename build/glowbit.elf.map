@@ -80,6 +80,68 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/glowbit.dir/bus_scan.c.obj
  .data          0x00000000        0x0 CMakeFiles/glowbit.dir/bus_scan.c.obj
  .bss           0x00000000        0x0 CMakeFiles/glowbit.dir/bus_scan.c.obj
+ .text          0x00000000        0x0 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .data          0x00000000        0x0 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.initSimpleDS3231
+                0x00000000       0x38 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text._read_data_reg
+                0x00000000       0x3c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text._write_data_reg
+                0x00000000       0x3c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_temp
+                0x00000000       0x3c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_sec  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_min  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_hou  0x00000000       0x18 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_time_str
+                0x00000000       0x50 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_hou  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_min  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_sec  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_time
+                0x00000000       0x6c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_day  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_mon  0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_year
+                0x00000000       0x34 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.get_date_str
+                0x00000000       0x6c CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_day  0x00000000       0x30 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_mon  0x00000000       0x30 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_year
+                0x00000000       0x38 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .text.set_date
+                0x00000000       0x80 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._date_str_buffer
+                0x00000000        0xb CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._time_str_buffer
+                0x00000000        0xc CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._data_buffer
+                0x00000000        0x8 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._12_format
+                0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._is_pm    0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._year     0x00000000        0x4 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._mon      0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._day      0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._hou      0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._min      0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .bss._sec      0x00000000        0x1 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_info    0x00000000     0x1074 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_abbrev  0x00000000      0x3b0 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_loclists
+                0x00000000      0x4ea CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_aranges
+                0x00000000       0xb8 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_rnglists
+                0x00000000       0x92 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_line    0x00000000      0x964 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_str     0x00000000      0x684 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .comment       0x00000000       0x27 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .debug_frame   0x00000000      0x204 CMakeFiles/glowbit.dir/DS3231.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/glowbit.dir/DS3231.c.obj
  .text          0x00000000        0x0 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -2365,9 +2427,9 @@ Discarded input sections
  .debug_frame   0x00000000      0x118 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
- .text          0x00000000        0x0 /tmp/cc7DApK9.o
- .data          0x00000000        0x0 /tmp/cc7DApK9.o
- .bss           0x00000000        0x0 /tmp/cc7DApK9.o
+ .text          0x00000000        0x0 /tmp/cc9IkhGA.o
+ .data          0x00000000        0x0 /tmp/cc9IkhGA.o
+ .bss           0x00000000        0x0 /tmp/cc9IkhGA.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000       0x10 /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -2659,7 +2721,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/cc7DApK9.o
+ .boot2         0x10000000      0x100 /tmp/cc9IkhGA.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3740,6 +3802,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000001                        ASSERT (((__binary_info_header_end - __logical_binary_start) <= 0x100), Binary info must be in first 256 bytes of the binary)
 LOAD CMakeFiles/glowbit.dir/glowbit.c.obj
 LOAD CMakeFiles/glowbit.dir/bus_scan.c.obj
+LOAD CMakeFiles/glowbit.dir/DS3231.c.obj
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -3805,7 +3868,7 @@ LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exce
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-LOAD /tmp/cc7DApK9.o
+LOAD /tmp/cc9IkhGA.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3906,7 +3969,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000064c       0x2c CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000678       0x22 /tmp/cc7DApK9.o
+                0x00000678       0x22 /tmp/cc9IkhGA.o
  .ARM.attributes
                 0x0000069a       0x1e /usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

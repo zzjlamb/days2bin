@@ -1,3 +1,6 @@
+#ifndef FONT_H
+#define FONT_H
+
 #include <stdlib.h>
 #include "pico/stdlib.h"
 
@@ -99,3 +102,5 @@ const int8_t __in_flash() fontmap [] = {
     0x00,0x02,0x03,0x01,0x03,0x02,0x03,0x01, // 126=~                           
     0xaa,0x55,0xaa,0x55,0xaa,0x55,0xaa,0x55, // 127=DEL
      };
+
+     #endif

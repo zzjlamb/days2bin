@@ -129,6 +129,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/john/mypicow/glowbit/DS3231.c" "CMakeFiles/glowbit.dir/DS3231.c.obj" "gcc" "CMakeFiles/glowbit.dir/DS3231.c.obj.d"
   "/home/john/mypicow/glowbit/bus_scan.c" "CMakeFiles/glowbit.dir/bus_scan.c.obj" "gcc" "CMakeFiles/glowbit.dir/bus_scan.c.obj.d"
   "/home/john/mypicow/glowbit/glowbit.c" "CMakeFiles/glowbit.dir/glowbit.c.obj" "gcc" "CMakeFiles/glowbit.dir/glowbit.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"

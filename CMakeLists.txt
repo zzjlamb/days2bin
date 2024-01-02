@@ -25,7 +25,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(glowbit glowbit.c)
+add_executable(glowbit glowbit.c bus_scan.c)
 
 pico_set_program_name(glowbit "glowbit")
 pico_set_program_version(glowbit "0.1")
@@ -35,7 +35,8 @@ pico_enable_stdio_usb(glowbit 0)
 
 # Add the standard library to the build
 target_link_libraries(glowbit
-        pico_stdlib)
+        pico_stdlib
+        hardware_i2c)
 
 # Add the standard include files to the build
 target_include_directories(glowbit PRIVATE

@@ -112,6 +112,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/home/john/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+  "/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   "/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include"
   "/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/include"
@@ -128,6 +129,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/john/mypicow/glowbit/bus_scan.c" "CMakeFiles/glowbit.dir/bus_scan.c.obj" "gcc" "CMakeFiles/glowbit.dir/bus_scan.c.obj.d"
   "/home/john/mypicow/glowbit/glowbit.c" "CMakeFiles/glowbit.dir/glowbit.c.obj" "gcc" "CMakeFiles/glowbit.dir/glowbit.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d"
@@ -148,6 +150,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d"
   "/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"

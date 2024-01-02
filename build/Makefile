@@ -207,6 +207,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+bus_scan.obj: bus_scan.c.obj
+.PHONY : bus_scan.obj
+
+# target to build an object file
+bus_scan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.obj
+.PHONY : bus_scan.c.obj
+
+bus_scan.i: bus_scan.c.i
+.PHONY : bus_scan.i
+
+# target to preprocess a source file
+bus_scan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.i
+.PHONY : bus_scan.c.i
+
+bus_scan.s: bus_scan.c.s
+.PHONY : bus_scan.s
+
+# target to generate assembly for a file
+bus_scan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.s
+.PHONY : bus_scan.c.s
+
 glowbit.obj: glowbit.c.obj
 .PHONY : glowbit.obj
 
@@ -694,6 +718,30 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/john/pico/pico
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
@@ -1606,6 +1654,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... glowbit"
+	@echo "... bus_scan.obj"
+	@echo "... bus_scan.i"
+	@echo "... bus_scan.s"
 	@echo "... glowbit.obj"
 	@echo "... glowbit.i"
 	@echo "... glowbit.s"
@@ -1667,6 +1718,9 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"

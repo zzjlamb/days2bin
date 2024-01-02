@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/glowbit.dir/bus_scan.c.obj"
+  "CMakeFiles/glowbit.dir/bus_scan.c.obj.d"
   "CMakeFiles/glowbit.dir/glowbit.c.obj"
   "CMakeFiles/glowbit.dir/glowbit.c.obj.d"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
@@ -40,6 +42,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+  "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"

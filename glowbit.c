@@ -14,7 +14,9 @@
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
+
 #include "font.h"
+#include "bus_scan.h"
 
 #define IS_RGBW false // Glowbit uses WS2812B RGB 8 bits each ie 24 bits
 #define NUM_PIXELS 64 // Glowbit Matrix 8x8 uses an 8x8 matrix
@@ -133,7 +135,9 @@ int main()
 
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
 
-    while (1)
+    bus_scan();
+
+    while (0)
     {
         clearScreen();
         sleep_ms(500);

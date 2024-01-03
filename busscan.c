@@ -50,7 +50,7 @@ int bus_scan() {
     bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
 
     printf("\nI2C Bus Scan\n");
-    printf("SDA on GPIO %d. SCL on GPIO %d.",PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN);
+    printf("SDA on GPIO %d. SCL on GPIO %d.\n",PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN);
     printf("   0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F\n");
 
     for (int addr = 0; addr < (1 << 7); ++addr) {

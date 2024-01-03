@@ -1,6 +1,15 @@
-#include "DS3231.h"
+/*
+ * Simple Raspberry Pi Pico driver for DS3231 RTC module.
+ *
+ * Written by Victor Gabriel Costin.
+ * Licensed under the MIT license.
+ */
+
+#include "SimpleDS3231.hpp"
+#include "ds3231.h"
 
 #include "hardware/i2c.h"
+
 /*
  * Indexes of internal data array
  */
@@ -77,21 +86,7 @@
 
 #define ASCII_OFFSET        48
 
-    uint8_t             _sec = 0;
-    uint8_t             _min = 0;
-    uint8_t             _hou = 0;
-    uint8_t             _day = 0;
-    uint8_t             _mon = 0;
-    int                 _year = 0;
-
-    bool                _is_pm = false;
-    bool                _12_format = false;
-
-    uint8_t             _data_buffer[8];
-    char                _time_str_buffer[12];
-    char                _date_str_buffer[11];
-
-void initSimpleDS3231()
+SimpleDS3231::SimpleDS3231()
 {
     i2c_init(i2c_default, 400000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
@@ -100,14 +95,14 @@ void initSimpleDS3231()
     gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
 }
 
-void _read_data_reg(uint8_t reg, uint8_t n_regs)
+void SimpleDS3231::_read_data_reg(uint8_t reg, uint8_t n_regs)
 {
     _data_buffer[0] = reg;
     i2c_write_blocking(i2c_default, DS3231_ADDR, _data_buffer, 1, true);
     i2c_read_blocking(i2c_default, DS3231_ADDR, _data_buffer + reg + 1, n_regs, false);
 }
 
-void _write_data_reg(uint8_t reg, uint8_t n_regs)
+void SimpleDS3231::_write_data_reg(uint8_t reg, uint8_t n_regs)
 {
     uint8_t buffer[8];
 
@@ -119,7 +114,7 @@ void _write_data_reg(uint8_t reg, uint8_t n_regs)
     i2c_write_blocking(i2c_default, DS3231_ADDR, buffer, n_regs + 1, false);
 }
 
-inline void _format_time_string()
+inline void SimpleDS3231::_format_time_string()
 {
     /*
      * Format time string
@@ -146,7 +141,7 @@ inline void _format_time_string()
     }
 }
 
-inline void _format_date_string()
+inline void SimpleDS3231::_format_date_string()
 {
     int year_aux = 0, aux = 0;
 
@@ -180,12 +175,12 @@ inline void _format_date_string()
     _date_str_buffer[9] = year_aux + ASCII_OFFSET;
 }
 
-inline uint8_t _decode_gen(uint8_t raw_data)
+inline uint8_t SimpleDS3231::_decode_gen(uint8_t raw_data)
 {
     return MSB_HALF(raw_data) * 10 + LSB_HALF(raw_data);
 }
 
-inline void _decode_hou()
+inline void SimpleDS3231::_decode_hou()
 {
     _12_format = _data_buffer[DATA_HOU] & MASK_BIT(HOU_FORMAT);
     if (_12_format) {
@@ -199,7 +194,7 @@ inline void _decode_hou()
     }
 }
 
-inline uint8_t _encode_gen(uint8_t data)
+inline uint8_t SimpleDS3231::_encode_gen(uint8_t data)
 {
     uint8_t msbd = 0;
 
@@ -211,7 +206,7 @@ inline uint8_t _encode_gen(uint8_t data)
     return COMBINE(msbd, data);
 }
 
-inline uint8_t _encode_hou(uint8_t hou, bool am_pm_format, bool is_pm)
+inline uint8_t SimpleDS3231::_encode_hou(uint8_t hou, bool am_pm_format, bool is_pm)
 {
     uint8_t rv = 0;
 
@@ -227,7 +222,7 @@ inline uint8_t _encode_hou(uint8_t hou, bool am_pm_format, bool is_pm)
     return rv;
 }
 
-uint8_t get_temp()
+uint8_t SimpleDS3231::get_temp()
 {
     uint8_t temp;
 
@@ -238,7 +233,7 @@ uint8_t get_temp()
     return temp;
 }
 
-uint8_t get_sec()
+uint8_t SimpleDS3231::get_sec()
 {
     READ_SEC_DATA();
     DECODE_SEC();
@@ -246,7 +241,7 @@ uint8_t get_sec()
     return _sec;
 }
 
-uint8_t get_min()
+uint8_t SimpleDS3231::get_min()
 {
     READ_MIN_DATA();
     DECODE_MIN();
@@ -254,7 +249,7 @@ uint8_t get_min()
     return _min;
 }
 
-uint8_t get_hou()
+uint8_t SimpleDS3231::get_hou()
 {
     READ_HOU_DATA();
     DECODE_HOU();
@@ -262,7 +257,7 @@ uint8_t get_hou()
     return _hou;
 }
 
-const char* get_time_str()
+const char* SimpleDS3231::get_time_str()
 {
     READ_ALL_DATA();
     DECODE_SEC();
@@ -273,7 +268,7 @@ const char* get_time_str()
     return _time_str_buffer;
 }
 
-void set_hou(uint8_t hou, bool am_pm_format, bool is_pm)
+void SimpleDS3231::set_hou(uint8_t hou, bool am_pm_format, bool is_pm)
 {
     if (am_pm_format && (hou < 1 || hou > 12) ||
         hou > 23)
@@ -283,7 +278,7 @@ void set_hou(uint8_t hou, bool am_pm_format, bool is_pm)
     WRITE_HOU_DATA();
 }
 
-void set_min(uint8_t min)
+void SimpleDS3231::set_min(uint8_t min)
 {
     if (min > 59)
         return;
@@ -292,7 +287,7 @@ void set_min(uint8_t min)
     WRITE_MIN_DATA();
 }
 
-void set_sec(uint8_t sec)
+void SimpleDS3231::set_sec(uint8_t sec)
 {
     if (sec > 59)
         return;
@@ -301,7 +296,7 @@ void set_sec(uint8_t sec)
     WRITE_SEC_DATA();
 }
 
-void set_time(uint8_t hou, uint8_t min, uint8_t sec,
+void SimpleDS3231::set_time(uint8_t hou, uint8_t min, uint8_t sec,
                             bool am_pm_format, bool is_pm)
 {
     if (am_pm_format && (hou < 1 || hou > 12) ||
@@ -314,7 +309,7 @@ void set_time(uint8_t hou, uint8_t min, uint8_t sec,
     WRITE_TIME_DATA();
 }
 
-uint8_t get_day()
+uint8_t SimpleDS3231::get_day()
 {
     READ_DAY_DATA();
     DECODE_DAY();
@@ -322,7 +317,7 @@ uint8_t get_day()
     return _day;
 }
 
-uint8_t get_mon()
+uint8_t SimpleDS3231::get_mon()
 {
     READ_MON_DATA();
     DECODE_MON();
@@ -330,7 +325,7 @@ uint8_t get_mon()
     return _mon;
 }
 
-int get_year()
+int SimpleDS3231::get_year()
 {
     READ_YEAR_DATA();
     DECODE_YEAR();
@@ -338,7 +333,7 @@ int get_year()
     return _year;
 }
 
-const char* get_date_str()
+const char* SimpleDS3231::get_date_str()
 {
     READ_ALL_DATA();
     DECODE_DAY();
@@ -349,7 +344,7 @@ const char* get_date_str()
     return _date_str_buffer;
 }
 
-void set_day(uint8_t day)
+void SimpleDS3231::set_day(uint8_t day)
 {
     if (day < 1 || day > 31)
         return;
@@ -358,7 +353,7 @@ void set_day(uint8_t day)
     WRITE_DAY_DATA();
 }
 
-void set_mon(uint8_t mon)
+void SimpleDS3231::set_mon(uint8_t mon)
 {
     if (mon < 1 || mon > 12)
         return;
@@ -367,7 +362,7 @@ void set_mon(uint8_t mon)
     WRITE_MON_DATA();
 }
 
-void set_year(int year)
+void SimpleDS3231::set_year(int year)
 {
     if (year < 2000 || year > 2099)
         return;
@@ -376,7 +371,7 @@ void set_year(int year)
     WRITE_YEAR_DATA();
 }
 
-void set_date(uint8_t day, uint8_t mon, int year)
+void SimpleDS3231::set_date(uint8_t day, uint8_t mon, int year)
 {
     if (day < 1 || day > 31 ||
         mon < 1 || mon > 12 ||
@@ -388,6 +383,3 @@ void set_date(uint8_t day, uint8_t mon, int year)
     ENCODE_YEAR(year - 2000);
     WRITE_DATE_DATA();
 }
-
-
-

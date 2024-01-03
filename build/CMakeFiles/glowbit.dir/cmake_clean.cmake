@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/glowbit.dir/DS3231.c.obj"
-  "CMakeFiles/glowbit.dir/DS3231.c.obj.d"
+  "CMakeFiles/glowbit.dir/SimpleDS3231.cpp.obj"
+  "CMakeFiles/glowbit.dir/SimpleDS3231.cpp.obj.d"
   "CMakeFiles/glowbit.dir/busscan.c.obj"
   "CMakeFiles/glowbit.dir/busscan.c.obj.d"
   "CMakeFiles/glowbit.dir/glowbit.cpp.obj"

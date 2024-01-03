@@ -17,7 +17,9 @@
 
 #include "font.hpp"
 
-extern "C" void bus_scan();
+#include "busscan.h"
+
+#include "SimpleDS3231.hpp"
 
 #define IS_RGBW false // Glowbit uses WS2812B RGB 8 bits each ie 24 bits
 #define NUM_PIXELS 64 // Glowbit Matrix 8x8 uses an 8x8 matrix
@@ -126,6 +128,7 @@ void scrollText(std::string text)
 
 int main()
 {
+    SimpleDS3231 rtc;
     stdio_init_all();
     printf("WS2812B using GPIO %d\n", WS2812_PIN);
 
@@ -138,17 +141,25 @@ int main()
 
     bus_scan();
 
+    while(0){
+        printf("\r%s -- %s -- %d%cC", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp(), 248);
+        sleep_ms(500);
+    }
+
+    /*rtc.set_sec(0);
+    rtc.set_hou(20, false, true);
+    rtc.set_min(0);*/
+
     while (1)
     {
         clearScreen();
-        sleep_ms(500);
-        std::string s = "Hello World!";
-        scrollText(s);
-        char aNumberString [6];
-        snprintf(aNumberString, 3,"%d",31); // Encode to string with 2 digits + terminating zero
+        sleep_ms(500);        
+        char aNumberString [20];
+        printf("%s %dC\n", rtc.get_time_str(), rtc.get_temp());
+        snprintf(aNumberString, 16,"%s %dC", rtc.get_time_str(), rtc.get_temp());
         scrollText(aNumberString);
-        snprintf(aNumberString, 3,"%d",2); // Encode to string with 2 digits + terminating zero
-        scrollText(aNumberString);
+        
+        
 
         sleep_ms(500);
     }

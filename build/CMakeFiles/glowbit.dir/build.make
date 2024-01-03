@@ -69,33 +69,33 @@ include CMakeFiles/glowbit.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/glowbit.dir/flags.make
 
-CMakeFiles/glowbit.dir/glowbit.c.obj: CMakeFiles/glowbit.dir/flags.make
-CMakeFiles/glowbit.dir/glowbit.c.obj: /home/john/mypicow/glowbit/glowbit.c
-CMakeFiles/glowbit.dir/glowbit.c.obj: CMakeFiles/glowbit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/mypicow/glowbit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glowbit.dir/glowbit.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glowbit.dir/glowbit.c.obj -MF CMakeFiles/glowbit.dir/glowbit.c.obj.d -o CMakeFiles/glowbit.dir/glowbit.c.obj -c /home/john/mypicow/glowbit/glowbit.c
+CMakeFiles/glowbit.dir/glowbit.cpp.obj: CMakeFiles/glowbit.dir/flags.make
+CMakeFiles/glowbit.dir/glowbit.cpp.obj: /home/john/mypicow/glowbit/glowbit.cpp
+CMakeFiles/glowbit.dir/glowbit.cpp.obj: CMakeFiles/glowbit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/mypicow/glowbit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glowbit.dir/glowbit.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glowbit.dir/glowbit.cpp.obj -MF CMakeFiles/glowbit.dir/glowbit.cpp.obj.d -o CMakeFiles/glowbit.dir/glowbit.cpp.obj -c /home/john/mypicow/glowbit/glowbit.cpp
 
-CMakeFiles/glowbit.dir/glowbit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glowbit.dir/glowbit.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/john/mypicow/glowbit/glowbit.c > CMakeFiles/glowbit.dir/glowbit.c.i
+CMakeFiles/glowbit.dir/glowbit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glowbit.dir/glowbit.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/mypicow/glowbit/glowbit.cpp > CMakeFiles/glowbit.dir/glowbit.cpp.i
 
-CMakeFiles/glowbit.dir/glowbit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glowbit.dir/glowbit.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/john/mypicow/glowbit/glowbit.c -o CMakeFiles/glowbit.dir/glowbit.c.s
+CMakeFiles/glowbit.dir/glowbit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glowbit.dir/glowbit.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/mypicow/glowbit/glowbit.cpp -o CMakeFiles/glowbit.dir/glowbit.cpp.s
 
-CMakeFiles/glowbit.dir/bus_scan.c.obj: CMakeFiles/glowbit.dir/flags.make
-CMakeFiles/glowbit.dir/bus_scan.c.obj: /home/john/mypicow/glowbit/bus_scan.c
-CMakeFiles/glowbit.dir/bus_scan.c.obj: CMakeFiles/glowbit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/mypicow/glowbit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/glowbit.dir/bus_scan.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glowbit.dir/bus_scan.c.obj -MF CMakeFiles/glowbit.dir/bus_scan.c.obj.d -o CMakeFiles/glowbit.dir/bus_scan.c.obj -c /home/john/mypicow/glowbit/bus_scan.c
+CMakeFiles/glowbit.dir/busscan.c.obj: CMakeFiles/glowbit.dir/flags.make
+CMakeFiles/glowbit.dir/busscan.c.obj: /home/john/mypicow/glowbit/busscan.c
+CMakeFiles/glowbit.dir/busscan.c.obj: CMakeFiles/glowbit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/mypicow/glowbit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/glowbit.dir/busscan.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glowbit.dir/busscan.c.obj -MF CMakeFiles/glowbit.dir/busscan.c.obj.d -o CMakeFiles/glowbit.dir/busscan.c.obj -c /home/john/mypicow/glowbit/busscan.c
 
-CMakeFiles/glowbit.dir/bus_scan.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glowbit.dir/bus_scan.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/john/mypicow/glowbit/bus_scan.c > CMakeFiles/glowbit.dir/bus_scan.c.i
+CMakeFiles/glowbit.dir/busscan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glowbit.dir/busscan.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/john/mypicow/glowbit/busscan.c > CMakeFiles/glowbit.dir/busscan.c.i
 
-CMakeFiles/glowbit.dir/bus_scan.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glowbit.dir/bus_scan.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/john/mypicow/glowbit/bus_scan.c -o CMakeFiles/glowbit.dir/bus_scan.c.s
+CMakeFiles/glowbit.dir/busscan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glowbit.dir/busscan.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/john/mypicow/glowbit/busscan.c -o CMakeFiles/glowbit.dir/busscan.c.s
 
 CMakeFiles/glowbit.dir/DS3231.c.obj: CMakeFiles/glowbit.dir/flags.make
 CMakeFiles/glowbit.dir/DS3231.c.obj: /home/john/mypicow/glowbit/DS3231.c
@@ -1012,8 +1012,8 @@ CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context
 
 # Object files for target glowbit
 glowbit_OBJECTS = \
-"CMakeFiles/glowbit.dir/glowbit.c.obj" \
-"CMakeFiles/glowbit.dir/bus_scan.c.obj" \
+"CMakeFiles/glowbit.dir/glowbit.cpp.obj" \
+"CMakeFiles/glowbit.dir/busscan.c.obj" \
 "CMakeFiles/glowbit.dir/DS3231.c.obj" \
 "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -1084,8 +1084,8 @@ glowbit_OBJECTS = \
 # External object files for target glowbit
 glowbit_EXTERNAL_OBJECTS =
 
-glowbit.elf: CMakeFiles/glowbit.dir/glowbit.c.obj
-glowbit.elf: CMakeFiles/glowbit.dir/bus_scan.c.obj
+glowbit.elf: CMakeFiles/glowbit.dir/glowbit.cpp.obj
+glowbit.elf: CMakeFiles/glowbit.dir/busscan.c.obj
 glowbit.elf: CMakeFiles/glowbit.dir/DS3231.c.obj
 glowbit.elf: CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 glowbit.elf: CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj

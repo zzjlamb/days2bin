@@ -231,53 +231,53 @@ DS3231.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/DS3231.c.s
 .PHONY : DS3231.c.s
 
-bus_scan.obj: bus_scan.c.obj
-.PHONY : bus_scan.obj
+busscan.obj: busscan.c.obj
+.PHONY : busscan.obj
 
 # target to build an object file
-bus_scan.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.obj
-.PHONY : bus_scan.c.obj
+busscan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.obj
+.PHONY : busscan.c.obj
 
-bus_scan.i: bus_scan.c.i
-.PHONY : bus_scan.i
+busscan.i: busscan.c.i
+.PHONY : busscan.i
 
 # target to preprocess a source file
-bus_scan.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.i
-.PHONY : bus_scan.c.i
+busscan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.i
+.PHONY : busscan.c.i
 
-bus_scan.s: bus_scan.c.s
-.PHONY : bus_scan.s
+busscan.s: busscan.c.s
+.PHONY : busscan.s
 
 # target to generate assembly for a file
-bus_scan.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/bus_scan.c.s
-.PHONY : bus_scan.c.s
+busscan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.s
+.PHONY : busscan.c.s
 
-glowbit.obj: glowbit.c.obj
+glowbit.obj: glowbit.cpp.obj
 .PHONY : glowbit.obj
 
 # target to build an object file
-glowbit.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.c.obj
-.PHONY : glowbit.c.obj
+glowbit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.obj
+.PHONY : glowbit.cpp.obj
 
-glowbit.i: glowbit.c.i
+glowbit.i: glowbit.cpp.i
 .PHONY : glowbit.i
 
 # target to preprocess a source file
-glowbit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.c.i
-.PHONY : glowbit.c.i
+glowbit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.i
+.PHONY : glowbit.cpp.i
 
-glowbit.s: glowbit.c.s
+glowbit.s: glowbit.cpp.s
 .PHONY : glowbit.s
 
 # target to generate assembly for a file
-glowbit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.c.s
-.PHONY : glowbit.c.s
+glowbit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.s
+.PHONY : glowbit.cpp.s
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
@@ -1681,9 +1681,9 @@ help:
 	@echo "... DS3231.obj"
 	@echo "... DS3231.i"
 	@echo "... DS3231.s"
-	@echo "... bus_scan.obj"
-	@echo "... bus_scan.i"
-	@echo "... bus_scan.s"
+	@echo "... busscan.obj"
+	@echo "... busscan.i"
+	@echo "... busscan.s"
 	@echo "... glowbit.obj"
 	@echo "... glowbit.i"
 	@echo "... glowbit.s"

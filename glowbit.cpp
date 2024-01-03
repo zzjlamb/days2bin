@@ -8,15 +8,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string>
 
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
 
-#include "font.h"
-#include "bus_scan.h"
+#include "font.hpp"
+
+extern "C" void bus_scan();
 
 #define IS_RGBW false // Glowbit uses WS2812B RGB 8 bits each ie 24 bits
 #define NUM_PIXELS 64 // Glowbit Matrix 8x8 uses an 8x8 matrix
@@ -84,9 +85,9 @@ void drawChar(char ch)
     }
 }
 
-void scrollText(char *text)
+void scrollText(std::string text)
 {
-    int textLength = strlen(text);
+    int textLength = text.length();
 
     // do nothing if null string
     if (textLength==0)
@@ -137,11 +138,12 @@ int main()
 
     bus_scan();
 
-    while (0)
+    while (1)
     {
         clearScreen();
         sleep_ms(500);
-        scrollText("Hello World!");
+        std::string s = "Hello World!";
+        scrollText(s);
         char aNumberString [6];
         snprintf(aNumberString, 3,"%d",31); // Encode to string with 2 digits + terminating zero
         scrollText(aNumberString);

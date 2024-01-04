@@ -18,6 +18,7 @@
 #include "font.hpp"
 
 #include "busscan.h"
+#include "flash/flash_utils.h"
 
 #include "SimpleDS3231.hpp"
 
@@ -130,6 +131,13 @@ int main()
 {
     SimpleDS3231 rtc;
     stdio_init_all();
+
+    void * ap = getAddressPersistent();
+    uint32_t xb = XIP_BASE;
+    uint32_t xb_offset = uint32_t (ap) - xb;
+
+    printf("Persistent flash address: %p. Offset from XIP_BASE: %x\n", ap, xb_offset);
+
     printf("WS2812B using GPIO %d\n", WS2812_PIN);
 
     // todo get free sm
@@ -139,18 +147,20 @@ int main()
 
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
 
-    bus_scan();
+    // bus_scan();
 
     while(0){
-        printf("\r%s -- %s -- %d%cC", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp(), 248);
+        printf("\r%s -- %s -- %d%cC", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
         sleep_ms(500);
     }
+
+    
 
     /*rtc.set_sec(0);
     rtc.set_hou(20, false, true);
     rtc.set_min(0);*/
 
-    while (1)
+    while (0)
     {
         clearScreen();
         sleep_ms(500);        

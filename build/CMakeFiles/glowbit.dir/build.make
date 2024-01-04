@@ -1154,6 +1154,7 @@ glowbit.elf: CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_
 glowbit.elf: CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 glowbit.elf: CMakeFiles/glowbit.dir/build.make
 glowbit.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+glowbit.elf: /home/john/mypicow/glowbit/flash/memmap_custom.ld
 glowbit.elf: CMakeFiles/glowbit.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/john/mypicow/glowbit/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking CXX executable glowbit.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glowbit.dir/link.txt --verbose=$(VERBOSE)

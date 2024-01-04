@@ -291,6 +291,7 @@ CMakeFiles/glowbit.dir/glowbit.cpp.obj: /home/john/mypicow/glowbit/glowbit.cpp \
   /home/john/mypicow/glowbit/ws2812.pio.h \
   /home/john/mypicow/glowbit/font.hpp \
   /home/john/mypicow/glowbit/busscan.h \
+  /home/john/mypicow/glowbit/flash/flash_utils.h \
   /home/john/mypicow/glowbit/SimpleDS3231.hpp
 
 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c \
@@ -2920,6 +2921,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c:
 
+/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c:
+
 /usr/include/newlib/c++/12.2.1/iosfwd:
 
 /usr/include/newlib/c++/12.2.1/cstdio:
@@ -3306,6 +3309,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/john/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
+/home/john/mypicow/glowbit/flash/flash_utils.h:
+
 /home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
@@ -3457,5 +3462,3 @@ generated/pico_base/pico/config_autogen.h:
 /home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
-
-/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c:

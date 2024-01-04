@@ -27,6 +27,8 @@ pico_sdk_init()
 
 add_executable(glowbit glowbit.cpp SimpleDS3231.cpp busscan.c)
 
+pico_set_linker_script(glowbit ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
+
 pico_set_program_name(glowbit "glowbit")
 pico_set_program_version(glowbit "0.1")
 

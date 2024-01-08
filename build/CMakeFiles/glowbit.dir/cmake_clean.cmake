@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glowbit.dir/SimpleDS3231.cpp.obj.d"
   "CMakeFiles/glowbit.dir/busscan.c.obj"
   "CMakeFiles/glowbit.dir/busscan.c.obj.d"
+  "CMakeFiles/glowbit.dir/flash/flash_utils.c.obj"
+  "CMakeFiles/glowbit.dir/flash/flash_utils.c.obj.d"
   "CMakeFiles/glowbit.dir/glowbit.cpp.obj"
   "CMakeFiles/glowbit.dir/glowbit.cpp.obj.d"
   "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"

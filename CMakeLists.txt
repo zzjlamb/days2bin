@@ -11,6 +11,8 @@ set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
 
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
+set(PICO_DEOPTIMIZED_DEBUG 1)
+
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
@@ -25,7 +27,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(glowbit glowbit.cpp SimpleDS3231.cpp busscan.c)
+add_executable(glowbit glowbit.cpp flash/flash_utils.c SimpleDS3231.cpp busscan.c)
 
 pico_set_linker_script(glowbit ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
 

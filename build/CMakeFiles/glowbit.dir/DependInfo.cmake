@@ -61,6 +61,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_CYW43_ARCH_THREADSAFE_BACKGROUND=1"
+  "PICO_DEOPTIMIZED_DEBUG=1"
   "PICO_NO_FLASH=0"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
@@ -130,6 +131,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/john/mypicow/glowbit/busscan.c" "CMakeFiles/glowbit.dir/busscan.c.obj" "gcc" "CMakeFiles/glowbit.dir/busscan.c.obj.d"
+  "/home/john/mypicow/glowbit/flash/flash_utils.c" "CMakeFiles/glowbit.dir/flash/flash_utils.c.obj" "gcc" "CMakeFiles/glowbit.dir/flash/flash_utils.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d"
   "/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" "gcc" "CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d"

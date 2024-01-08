@@ -13,6 +13,7 @@
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
+
 #include "ws2812.pio.h"
 
 #include "font.hpp"
@@ -132,11 +133,7 @@ int main()
     SimpleDS3231 rtc;
     stdio_init_all();
 
-    void * ap = getAddressPersistent();
-    uint32_t xb = XIP_BASE;
-    uint32_t xb_offset = uint32_t (ap) - xb;
-
-    printf("Persistent flash address: %p. Offset from XIP_BASE: %x\n", ap, xb_offset);
+    write_flash();
 
     printf("WS2812B using GPIO %d\n", WS2812_PIN);
 

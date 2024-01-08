@@ -255,6 +255,30 @@ busscan.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.s
 .PHONY : busscan.c.s
 
+flash/flash_utils.obj: flash/flash_utils.c.obj
+.PHONY : flash/flash_utils.obj
+
+# target to build an object file
+flash/flash_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.obj
+.PHONY : flash/flash_utils.c.obj
+
+flash/flash_utils.i: flash/flash_utils.c.i
+.PHONY : flash/flash_utils.i
+
+# target to preprocess a source file
+flash/flash_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.i
+.PHONY : flash/flash_utils.c.i
+
+flash/flash_utils.s: flash/flash_utils.c.s
+.PHONY : flash/flash_utils.s
+
+# target to generate assembly for a file
+flash/flash_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.s
+.PHONY : flash/flash_utils.c.s
+
 glowbit.obj: glowbit.cpp.obj
 .PHONY : glowbit.obj
 
@@ -1684,6 +1708,9 @@ help:
 	@echo "... busscan.obj"
 	@echo "... busscan.i"
 	@echo "... busscan.s"
+	@echo "... flash/flash_utils.obj"
+	@echo "... flash/flash_utils.i"
+	@echo "... flash/flash_utils.s"
 	@echo "... glowbit.obj"
 	@echo "... glowbit.i"
 	@echo "... glowbit.s"

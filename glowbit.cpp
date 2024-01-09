@@ -133,6 +133,7 @@ int main()
     SimpleDS3231 rtc;
     stdio_init_all();
 
+    make_test_data();
     write_flash();
 
     printf("WS2812B using GPIO %d\n", WS2812_PIN);

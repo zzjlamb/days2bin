@@ -142,19 +142,41 @@ CMakeFiles/glowbit.dir/busscan.c.obj: /home/john/mypicow/glowbit/busscan.c \
 CMakeFiles/glowbit.dir/flash/flash_utils.c.obj: /home/john/mypicow/glowbit/flash/flash_utils.c \
   /home/john/mypicow/glowbit/flash/flash_utils.h \
   /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdint.h \
-  /home/john/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
-  /home/john/pico/pico-sdk/src/common/pico_base/include/pico.h \
-  /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
-  /home/john/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
-  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h \
-  /usr/include/newlib/assert.h \
+  /usr/include/newlib/time.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/sys/config.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
   /usr/lib/gcc/arm-none-eabi/12.2.1/include/stddef.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/machine/time.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/_locale.h \
+  /home/john/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+  /home/john/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /home/john/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
   /home/john/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
@@ -164,8 +186,6 @@ CMakeFiles/glowbit.dir/flash/flash_utils.c.obj: /home/john/mypicow/glowbit/flash
   /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/machine/_default_types.h \
   /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   /home/john/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   /home/john/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
@@ -191,23 +211,6 @@ CMakeFiles/glowbit.dir/flash/flash_utils.c.obj: /home/john/mypicow/glowbit/flash
   /home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
   /usr/include/newlib/stdio.h \
   /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdarg.h \
-  /usr/include/newlib/sys/reent.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/sys/_types.h \
-  /usr/include/newlib/machine/_types.h \
-  /usr/include/newlib/sys/lock.h \
-  /usr/include/newlib/sys/types.h \
-  /usr/include/newlib/sys/_stdint.h \
-  /usr/include/newlib/machine/endian.h \
-  /usr/include/newlib/machine/_endian.h \
-  /usr/include/newlib/sys/select.h \
-  /usr/include/newlib/sys/_sigset.h \
-  /usr/include/newlib/sys/_timeval.h \
-  /usr/include/newlib/sys/timespec.h \
-  /usr/include/newlib/sys/_timespec.h \
-  /usr/include/newlib/sys/_pthreadtypes.h \
-  /usr/include/newlib/sys/sched.h \
-  /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
   /home/john/pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   /home/john/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
@@ -365,6 +368,8 @@ CMakeFiles/glowbit.dir/glowbit.cpp.obj: /home/john/mypicow/glowbit/glowbit.cpp \
   /home/john/mypicow/glowbit/font.hpp \
   /home/john/mypicow/glowbit/busscan.h \
   /home/john/mypicow/glowbit/flash/flash_utils.h \
+  /usr/include/newlib/time.h \
+  /usr/include/newlib/machine/time.h \
   /home/john/mypicow/glowbit/SimpleDS3231.hpp
 
 CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c \
@@ -2942,10 +2947,6 @@ CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/uni
 
 /usr/include/newlib/sys/times.h:
 
-/usr/include/newlib/machine/time.h:
-
-/usr/include/newlib/time.h:
-
 /usr/include/newlib/sys/time.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
@@ -2998,6 +2999,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h:
 
+/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+
 /usr/include/newlib/c++/12.2.1/iosfwd:
 
 /usr/include/newlib/c++/12.2.1/cstdio:
@@ -3048,10 +3053,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /usr/include/newlib/sys/_types.h:
 
-/usr/include/newlib/c++/12.2.1/bits/stringfwd.h:
-
-/usr/include/newlib/c++/12.2.1/bits/charconv.h:
-
 /usr/include/newlib/c++/12.2.1/bits/std_abs.h:
 
 /usr/include/newlib/c++/12.2.1/bits/functexcept.h:
@@ -3065,6 +3066,14 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /usr/include/newlib/c++/12.2.1/bits/ostream_insert.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/usr/include/newlib/c++/12.2.1/bits/stringfwd.h:
+
+/usr/include/newlib/c++/12.2.1/bits/charconv.h:
+
+/usr/include/newlib/time.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
 /usr/include/newlib/c++/12.2.1/cctype:
 
@@ -3090,8 +3099,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /usr/include/newlib/machine/_endian.h:
 
-/usr/include/newlib/c++/12.2.1/debug/assertions.h:
-
 /usr/include/newlib/sys/types.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
@@ -3110,17 +3117,9 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
-/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
-
-/home/john/mypicow/glowbit/flash/flash_utils.c:
-
-/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
-
 /home/john/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
 
 /usr/include/newlib/c++/12.2.1/clocale:
-
-/home/john/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
 /home/john/pico/pico-sdk/src/common/pico_base/include/pico.h:
 
@@ -3169,10 +3168,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /home/john/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 /home/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h:
-
-/usr/include/newlib/c++/12.2.1/bits/stl_iterator.h:
-
-/usr/include/newlib/sys/stdio.h:
 
 /home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c:
 
@@ -3276,12 +3271,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
-/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
-
-/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c:
-
-/home/john/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
-
 /home/john/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
 /usr/include/newlib/c++/12.2.1/string_view:
@@ -3306,7 +3295,7 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /usr/include/newlib/c++/12.2.1/debug/debug.h:
 
-/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+/usr/include/newlib/machine/time.h:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.h:
 
@@ -3331,6 +3320,24 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
+/usr/include/newlib/c++/12.2.1/debug/assertions.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
+
+/home/john/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/usr/include/newlib/sys/stdio.h:
+
+/usr/include/newlib/c++/12.2.1/bits/stl_iterator.h:
+
+/home/john/mypicow/glowbit/flash/flash_utils.c:
+
+/home/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
+
+/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
 
 /usr/include/newlib/c++/12.2.1/ext/type_traits.h:
 
@@ -3535,5 +3542,3 @@ generated/pico_base/pico/config_autogen.h:
 /home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c:
 
 /home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
-
-/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:

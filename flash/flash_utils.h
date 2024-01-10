@@ -30,9 +30,9 @@ extern uint8_t ADDR_PERSISTENT[];
 }
 
 // Populate the binsData array with some test settings
-void make_test_data();
-
+void make_test_data();      // For development and debugging only
 void write_flash();
+struct Bin_Info * read_flash();
 
 #ifdef __cplusplus
 }

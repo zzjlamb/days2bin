@@ -66,10 +66,10 @@ void write_flash(){
         printf("\n");
     }
     printf("\n\n");
-
-
 }
 
-
-
+struct Bin_Info * read_flash(){
+    struct Bin_Info * ap = (struct Bin_Info*) getAddressPersistent();
+    return ap;
+}
  

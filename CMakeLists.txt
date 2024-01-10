@@ -20,38 +20,40 @@ if (PICO_SDK_VERSION_STRING VERSION_LESS "1.4.0")
   message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.4.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
 endif()
 
-project(glowbit C CXX ASM)
+project(days2bin C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(glowbit glowbit.cpp flash/flash_utils.c SimpleDS3231.cpp busscan.c)
+add_executable(days2bin days2bin.cpp flash/flash_utils.c peripherals/SimpleDS3231.cpp peripherals/busscan.c)
 
-pico_set_linker_script(glowbit ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
+add_subdirectory(peripherals)
 
-pico_set_program_name(glowbit "glowbit")
-pico_set_program_version(glowbit "0.1")
+pico_set_linker_script(days2bin ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
 
-pico_enable_stdio_uart(glowbit 1)
-pico_enable_stdio_usb(glowbit 0)
+pico_set_program_name(days2bin "days2bin")
+pico_set_program_version(days2bin "0.1")
+
+pico_enable_stdio_uart(days2bin 1)
+pico_enable_stdio_usb(days2bin 0)
 
 # Add the standard library to the build
-target_link_libraries(glowbit
+target_link_libraries(days2bin
         pico_stdlib
         hardware_i2c)
 
 # Add the standard include files to the build
-target_include_directories(glowbit PRIVATE
+target_include_directories(days2bin PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
   ${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
 )
 
 # Add any user requested libraries
-target_link_libraries(glowbit 
+target_link_libraries(days2bin 
         pico_cyw43_arch_none
         )
 
-pico_add_extra_outputs(glowbit)
+pico_add_extra_outputs(days2bin)
 

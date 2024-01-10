@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-/home/john/mypicow/glowbit/build/CMakeFiles/ELF2UF2Build
-/home/john/mypicow/glowbit/build/CMakeFiles/ELF2UF2Build.rule
-/home/john/mypicow/glowbit/build/CMakeFiles/ELF2UF2Build-complete.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-/home/john/mypicow/glowbit/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/home/john/mypicow/days2bin/build/CMakeFiles/ELF2UF2Build
+/home/john/mypicow/days2bin/build/CMakeFiles/ELF2UF2Build.rule
+/home/john/mypicow/days2bin/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/john/mypicow/days2bin/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

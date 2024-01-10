@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/mypicow/glowbit
+CMAKE_SOURCE_DIR = /home/john/mypicow/days2bin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/mypicow/glowbit/build
+CMAKE_BINARY_DIR = /home/john/mypicow/days2bin/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/mypicow/glowbit/build/CMakeFiles /home/john/mypicow/glowbit/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/mypicow/days2bin/build/CMakeFiles /home/john/mypicow/days2bin/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/mypicow/glowbit/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/mypicow/days2bin/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named glowbit
+# Target rules for targets named days2bin
 
 # Build rule for target.
-glowbit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glowbit
-.PHONY : glowbit
+days2bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days2bin
+.PHONY : days2bin
 
 # fast build rule for target.
-glowbit/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/build
-.PHONY : glowbit/fast
+days2bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/build
+.PHONY : days2bin/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -207,60 +207,36 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-SimpleDS3231.obj: SimpleDS3231.cpp.obj
-.PHONY : SimpleDS3231.obj
+days2bin.obj: days2bin.cpp.obj
+.PHONY : days2bin.obj
 
 # target to build an object file
-SimpleDS3231.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/SimpleDS3231.cpp.obj
-.PHONY : SimpleDS3231.cpp.obj
+days2bin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.obj
+.PHONY : days2bin.cpp.obj
 
-SimpleDS3231.i: SimpleDS3231.cpp.i
-.PHONY : SimpleDS3231.i
-
-# target to preprocess a source file
-SimpleDS3231.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/SimpleDS3231.cpp.i
-.PHONY : SimpleDS3231.cpp.i
-
-SimpleDS3231.s: SimpleDS3231.cpp.s
-.PHONY : SimpleDS3231.s
-
-# target to generate assembly for a file
-SimpleDS3231.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/SimpleDS3231.cpp.s
-.PHONY : SimpleDS3231.cpp.s
-
-busscan.obj: busscan.c.obj
-.PHONY : busscan.obj
-
-# target to build an object file
-busscan.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.obj
-.PHONY : busscan.c.obj
-
-busscan.i: busscan.c.i
-.PHONY : busscan.i
+days2bin.i: days2bin.cpp.i
+.PHONY : days2bin.i
 
 # target to preprocess a source file
-busscan.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.i
-.PHONY : busscan.c.i
+days2bin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.i
+.PHONY : days2bin.cpp.i
 
-busscan.s: busscan.c.s
-.PHONY : busscan.s
+days2bin.s: days2bin.cpp.s
+.PHONY : days2bin.s
 
 # target to generate assembly for a file
-busscan.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/busscan.c.s
-.PHONY : busscan.c.s
+days2bin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.s
+.PHONY : days2bin.cpp.s
 
 flash/flash_utils.obj: flash/flash_utils.c.obj
 .PHONY : flash/flash_utils.obj
 
 # target to build an object file
 flash/flash_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/flash/flash_utils.c.obj
 .PHONY : flash/flash_utils.c.obj
 
 flash/flash_utils.i: flash/flash_utils.c.i
@@ -268,7 +244,7 @@ flash/flash_utils.i: flash/flash_utils.c.i
 
 # target to preprocess a source file
 flash/flash_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/flash/flash_utils.c.i
 .PHONY : flash/flash_utils.c.i
 
 flash/flash_utils.s: flash/flash_utils.c.s
@@ -276,39 +252,15 @@ flash/flash_utils.s: flash/flash_utils.c.s
 
 # target to generate assembly for a file
 flash/flash_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/flash/flash_utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/flash/flash_utils.c.s
 .PHONY : flash/flash_utils.c.s
-
-glowbit.obj: glowbit.cpp.obj
-.PHONY : glowbit.obj
-
-# target to build an object file
-glowbit.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.obj
-.PHONY : glowbit.cpp.obj
-
-glowbit.i: glowbit.cpp.i
-.PHONY : glowbit.i
-
-# target to preprocess a source file
-glowbit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.i
-.PHONY : glowbit.cpp.i
-
-glowbit.s: glowbit.cpp.s
-.PHONY : glowbit.s
-
-# target to generate assembly for a file
-glowbit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/glowbit.cpp.s
-.PHONY : glowbit.cpp.s
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
 # target to build an object file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
@@ -316,7 +268,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
@@ -324,7 +276,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
@@ -332,7 +284,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/john/pico/pico-s
 
 # target to build an object file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
@@ -340,7 +292,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/john/pico/pico-sdk
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
@@ -348,7 +300,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/john/pico/pico-sdk
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
@@ -356,7 +308,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
@@ -364,7 +316,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
@@ -372,7 +324,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
@@ -380,7 +332,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/john/pico/pic
 
 # target to build an object file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
@@ -388,7 +340,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/john/pico/pico-
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
@@ -396,7 +348,7 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/john/pico/pico-
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -404,7 +356,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/john/pic
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -412,7 +364,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/john/pico/
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -420,7 +372,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/john/pico/
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -428,7 +380,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/john/pico/pico-
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -436,7 +388,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/john/pico/pico-sd
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -444,7 +396,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/john/pico/pico-sd
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -452,7 +404,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/john/pico/pico-sdk/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.i: home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -460,7 +412,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/mutex.i: home/john/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.s: home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -468,7 +420,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/mutex.s: home/john/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/john/pico/pico-sdk/src/common/pico_sync/sem.obj: home/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -476,7 +428,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/sem.obj: home/john/pico/pico-sdk/sr
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_sync/sem.i: home/john/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -484,7 +436,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/sem.i: home/john/pico/pico-sdk/src/
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/john/pico/pico-sdk/src/common/pico_sync/sem.s: home/john/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -492,7 +444,7 @@ home/john/pico/pico-sdk/src/common/pico_sync/sem.s: home/john/pico/pico-sdk/src/
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/john/pico/pico-sdk/src/common/pico_time/time.obj: home/john/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -500,7 +452,7 @@ home/john/pico/pico-sdk/src/common/pico_time/time.obj: home/john/pico/pico-sdk/s
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_time/time.i: home/john/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -508,7 +460,7 @@ home/john/pico/pico-sdk/src/common/pico_time/time.i: home/john/pico/pico-sdk/src
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/john/pico/pico-sdk/src/common/pico_time/time.s: home/john/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -516,7 +468,7 @@ home/john/pico/pico-sdk/src/common/pico_time/time.s: home/john/pico/pico-sdk/src
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -524,7 +476,7 @@ home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -532,7 +484,7 @@ home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -540,7 +492,7 @@ home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/john/pico/pico-sdk/src/common/pico_util/datetime.obj: home/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -548,7 +500,7 @@ home/john/pico/pico-sdk/src/common/pico_util/datetime.obj: home/john/pico/pico-s
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_util/datetime.i: home/john/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -556,7 +508,7 @@ home/john/pico/pico-sdk/src/common/pico_util/datetime.i: home/john/pico/pico-sdk
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/john/pico/pico-sdk/src/common/pico_util/datetime.s: home/john/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -564,7 +516,7 @@ home/john/pico/pico-sdk/src/common/pico_util/datetime.s: home/john/pico/pico-sdk
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/john/pico/pico-sdk/src/common/pico_util/pheap.obj: home/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -572,7 +524,7 @@ home/john/pico/pico-sdk/src/common/pico_util/pheap.obj: home/john/pico/pico-sdk/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_util/pheap.i: home/john/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -580,7 +532,7 @@ home/john/pico/pico-sdk/src/common/pico_util/pheap.i: home/john/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/john/pico/pico-sdk/src/common/pico_util/pheap.s: home/john/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -588,7 +540,7 @@ home/john/pico/pico-sdk/src/common/pico_util/pheap.s: home/john/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/john/pico/pico-sdk/src/common/pico_util/queue.obj: home/john/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -596,7 +548,7 @@ home/john/pico/pico-sdk/src/common/pico_util/queue.obj: home/john/pico/pico-sdk/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/john/pico/pico-sdk/src/common/pico_util/queue.i: home/john/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -604,7 +556,7 @@ home/john/pico/pico-sdk/src/common/pico_util/queue.i: home/john/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/john/pico/pico-sdk/src/common/pico_util/queue.s: home/john/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -612,7 +564,7 @@ home/john/pico/pico-sdk/src/common/pico_util/queue.s: home/john/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/john/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -620,7 +572,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -628,7 +580,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -636,7 +588,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -644,7 +596,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/john/pic
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -652,7 +604,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/john/pico/
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -660,7 +612,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/john/pico/
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -668,7 +620,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/john/p
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
@@ -676,7 +628,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
@@ -684,7 +636,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
@@ -692,7 +644,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
@@ -700,7 +652,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/jo
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
@@ -708,7 +660,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/john
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
@@ -716,7 +668,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/john
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -724,7 +676,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -732,7 +684,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -740,7 +692,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -748,7 +700,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -756,7 +708,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -764,7 +716,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -772,7 +724,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -780,7 +732,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -788,7 +740,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -796,7 +748,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -804,7 +756,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -812,7 +764,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -820,7 +772,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -828,7 +780,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -836,7 +788,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -844,7 +796,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -852,7 +804,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -860,7 +812,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -868,7 +820,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -876,7 +828,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -884,7 +836,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -892,7 +844,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -900,7 +852,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -908,7 +860,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -916,7 +868,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -924,7 +876,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -932,7 +884,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -940,7 +892,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -948,7 +900,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -956,7 +908,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -964,7 +916,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -972,7 +924,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/john
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -980,7 +932,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/john/p
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -988,7 +940,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/john/p
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -996,7 +948,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1004,7 +956,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1012,7 +964,7 @@ home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
@@ -1020,7 +972,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
@@ -1028,7 +980,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: 
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
@@ -1036,7 +988,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: 
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
@@ -1044,7 +996,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsa
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
@@ -1052,7 +1004,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsa
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
@@ -1060,7 +1012,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsa
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1068,7 +1020,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/john
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1076,7 +1028,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1084,7 +1036,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1092,7 +1044,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
@@ -1100,7 +1052,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/john
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
@@ -1108,7 +1060,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/john/p
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
@@ -1116,7 +1068,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/john/p
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
@@ -1124,7 +1076,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: 
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
@@ -1132,7 +1084,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: ho
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
@@ -1140,7 +1092,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: ho
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
@@ -1148,7 +1100,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
@@ -1156,7 +1108,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/j
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
@@ -1164,7 +1116,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/j
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
@@ -1172,7 +1124,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_bac
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
@@ -1180,7 +1132,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_bac
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
@@ -1188,7 +1140,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_bac
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
@@ -1196,7 +1148,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
@@ -1204,7 +1156,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
@@ -1212,7 +1164,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
@@ -1220,7 +1172,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
@@ -1228,7 +1180,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
@@ -1236,7 +1188,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_sh
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
@@ -1244,7 +1196,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: 
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
@@ -1252,7 +1204,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: ho
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
@@ -1260,7 +1212,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: ho
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
@@ -1268,7 +1220,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
@@ -1276,7 +1228,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/jo
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
@@ -1284,7 +1236,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/jo
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1292,7 +1244,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1300,7 +1252,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/john/p
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1308,7 +1260,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/joh
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1316,7 +1268,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/john/
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1324,7 +1276,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/john/
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1332,7 +1284,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/john/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1340,7 +1292,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/john/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1348,7 +1300,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/john/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1356,7 +1308,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1364,7 +1316,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/john/pic
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1372,7 +1324,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/john/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1380,7 +1332,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/john/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1388,7 +1340,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/john/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1396,7 +1348,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/john/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1404,7 +1356,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/john/pico/p
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1412,7 +1364,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/john/pico/p
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1420,7 +1372,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/jo
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1428,7 +1380,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: 
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1436,7 +1388,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/john/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1444,7 +1396,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/john/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1452,7 +1404,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/john/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1460,7 +1412,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/john
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1468,7 +1420,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/john/pic
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1476,7 +1428,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/john/pico/
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1484,7 +1436,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/john/pico/
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1492,7 +1444,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1500,7 +1452,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1508,7 +1460,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1516,7 +1468,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/john/pico/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1524,7 +1476,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/john/pico/pi
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1532,7 +1484,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/john/pico/pi
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1540,7 +1492,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1548,7 +1500,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/jo
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1556,7 +1508,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/jo
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1564,7 +1516,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/john/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1572,7 +1524,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/j
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1580,7 +1532,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/joh
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1588,7 +1540,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/joh
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1596,7 +1548,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/john/pico/pico
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1604,7 +1556,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/john/pico/pico-s
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1612,7 +1564,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/john/pico/pico-s
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1620,7 +1572,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/john
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1628,7 +1580,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/john/p
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1636,7 +1588,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/john/p
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1644,7 +1596,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/john/pico/pi
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1652,7 +1604,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/john/pico/pico
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1660,7 +1612,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/john/pico/pico
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1668,7 +1620,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/john/p
 
 # target to build an object file
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1676,7 +1628,7 @@ home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/john/pic
 
 # target to preprocess a source file
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1684,8 +1636,80 @@ home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/john/pic
 
 # target to generate assembly for a file
 home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glowbit.dir/build.make CMakeFiles/glowbit.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+peripherals/SimpleDS3231.obj: peripherals/SimpleDS3231.cpp.obj
+.PHONY : peripherals/SimpleDS3231.obj
+
+# target to build an object file
+peripherals/SimpleDS3231.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.obj
+.PHONY : peripherals/SimpleDS3231.cpp.obj
+
+peripherals/SimpleDS3231.i: peripherals/SimpleDS3231.cpp.i
+.PHONY : peripherals/SimpleDS3231.i
+
+# target to preprocess a source file
+peripherals/SimpleDS3231.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.i
+.PHONY : peripherals/SimpleDS3231.cpp.i
+
+peripherals/SimpleDS3231.s: peripherals/SimpleDS3231.cpp.s
+.PHONY : peripherals/SimpleDS3231.s
+
+# target to generate assembly for a file
+peripherals/SimpleDS3231.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.s
+.PHONY : peripherals/SimpleDS3231.cpp.s
+
+peripherals/busscan.obj: peripherals/busscan.c.obj
+.PHONY : peripherals/busscan.obj
+
+# target to build an object file
+peripherals/busscan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.obj
+.PHONY : peripherals/busscan.c.obj
+
+peripherals/busscan.i: peripherals/busscan.c.i
+.PHONY : peripherals/busscan.i
+
+# target to preprocess a source file
+peripherals/busscan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.i
+.PHONY : peripherals/busscan.c.i
+
+peripherals/busscan.s: peripherals/busscan.c.s
+.PHONY : peripherals/busscan.s
+
+# target to generate assembly for a file
+peripherals/busscan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.s
+.PHONY : peripherals/busscan.c.s
+
+peripherals/glowbit.obj: peripherals/glowbit.cpp.obj
+.PHONY : peripherals/glowbit.obj
+
+# target to build an object file
+peripherals/glowbit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj
+.PHONY : peripherals/glowbit.cpp.obj
+
+peripherals/glowbit.i: peripherals/glowbit.cpp.i
+.PHONY : peripherals/glowbit.i
+
+# target to preprocess a source file
+peripherals/glowbit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.i
+.PHONY : peripherals/glowbit.cpp.i
+
+peripherals/glowbit.s: peripherals/glowbit.cpp.s
+.PHONY : peripherals/glowbit.s
+
+# target to generate assembly for a file
+peripherals/glowbit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.s
+.PHONY : peripherals/glowbit.cpp.s
 
 # Help Target
 help:
@@ -1701,19 +1725,13 @@ help:
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
-	@echo "... glowbit"
-	@echo "... SimpleDS3231.obj"
-	@echo "... SimpleDS3231.i"
-	@echo "... SimpleDS3231.s"
-	@echo "... busscan.obj"
-	@echo "... busscan.i"
-	@echo "... busscan.s"
+	@echo "... days2bin"
+	@echo "... days2bin.obj"
+	@echo "... days2bin.i"
+	@echo "... days2bin.s"
 	@echo "... flash/flash_utils.obj"
 	@echo "... flash/flash_utils.i"
 	@echo "... flash/flash_utils.s"
-	@echo "... glowbit.obj"
-	@echo "... glowbit.i"
-	@echo "... glowbit.s"
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -1887,6 +1905,15 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... peripherals/SimpleDS3231.obj"
+	@echo "... peripherals/SimpleDS3231.i"
+	@echo "... peripherals/SimpleDS3231.s"
+	@echo "... peripherals/busscan.obj"
+	@echo "... peripherals/busscan.i"
+	@echo "... peripherals/busscan.s"
+	@echo "... peripherals/glowbit.obj"
+	@echo "... peripherals/glowbit.i"
+	@echo "... peripherals/glowbit.s"
 .PHONY : help
 
 

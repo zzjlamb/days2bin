@@ -33,6 +33,9 @@ extern uint8_t ADDR_PERSISTENT[];
 void make_test_data();      // For development and debugging only
 void write_flash();
 struct Bin_Info * read_flash();
+// fills an array of int - one for each bin type
+// -1 means no collection for that bin colour 
+void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_y, uint8_t clock_m, uint8_t clock_d);
 
 #ifdef __cplusplus
 }

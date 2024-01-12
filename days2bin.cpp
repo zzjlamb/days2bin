@@ -13,15 +13,12 @@
 
 #include "hardware/clocks.h"
 
-
-
 #include "peripherals/busscan.h"
 #include "flash/flash_utils.h"
 
-#include "peripherals/SimpleDS3231.hpp"
+#include "peripherals/SimpleDS3231_new.hpp"
 #include "peripherals/glowbit.hpp"
 #include "days2bin.hpp"
-
 
 int main()
 {
@@ -31,8 +28,9 @@ int main()
     gpio_set_dir(stay_powered_on_PIN, GPIO_OUT);
     gpio_put(stay_powered_on_PIN, 1);
 
-    SimpleDS3231 rtc;
+    SimpleDS3231 rtc(DS3231_SDA_PIN, DS3231_SCL_PIN);
     stdio_init_all();
+    glowbit_init();
 
     /*
     //for debugging and development only
@@ -47,27 +45,34 @@ int main()
         printf("Bintype %d: day: %d month: %d year: %d Interval: %d\n", i, bi[i].dd, bi[i].mm, bi[i].yy, bi[i].interval);
     }
 
-    //rtc.set_time( 20,  18,  0, false, true);
-    //rtc.set_date(10,1,2024);
+    //rtc.set_time( 21,  18,  0, false, true);
+   // rtc.set_date(12,1,2024);
 
     printf("\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
 
-    glowbit_init();
-    char s [100] = {}; 
-    sprintf(s,"\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
-    scrollText(s);
+    int dtc[NUM_BIN_KINDS];
+    getDaysToCollection(dtc, rtc.get_year(),rtc.get_mon(),rtc.get_day());
+    
 
-/*
     while (0)
     {
-        clearScreen();
-        sleep_ms(500);
-        char aNumberString[20];
-        printf("%s %dC\n", rtc.get_time_str(), rtc.get_temp());
-        snprintf(aNumberString, 16, "%s %dC", rtc.get_time_str(), rtc.get_temp());
-        scrollText(aNumberString);
+        char s[100] = {};
+        sprintf(s, "\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
+        printf("%s\n", s);
+        scrollText(s,0x40, 0, 0);
+    };
 
-        sleep_ms(500);
-    }
-*/
+    /*
+        while (0)
+        {
+            clearScreen();
+            sleep_ms(500);
+            char aNumberString[20];
+            printf("%s %dC\n", rtc.get_time_str(), rtc.get_temp());
+            snprintf(aNumberString, 16, "%s %dC", rtc.get_time_str(), rtc.get_temp());
+            scrollText(aNumberString);
+
+            sleep_ms(500);
+        }
+    */
 }

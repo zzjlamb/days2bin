@@ -1,7 +1,7 @@
 /*
 Utilities for writing and reading to flash
 
-Our target sector is 4k from xb_offset + 
+Our target sector is 4k from xb_offset +
 
 */
 
@@ -12,10 +12,11 @@ Our target sector is 4k from xb_offset +
 #include <hardware/sync.h>
 #include "time.h"
 
-struct Bin_Info binsData [NUM_BIN_KINDS]={};
+struct Bin_Info binsData[NUM_BIN_KINDS] = {};
 
 // Populate the binsData array with some test settings
-void make_test_data(){
+void make_test_data()
+{
 
     binsData[RED_BIN].dd = 11;
     binsData[RED_BIN].mm = 1;
@@ -30,46 +31,84 @@ void make_test_data(){
     binsData[GREEN_BIN].interval = 0;
 }
 
-void write_flash(){ 
-    
-    uint8_t buf[FLASH_PAGE_SIZE]={};
+void write_flash()
+{
 
-    uint8_t * binsDataPtr = (uint8_t*)&binsData;
-    for(int i=0;i < sizeof(binsData);i++){
-        buf[i]=binsDataPtr[i];
+    uint8_t buf[FLASH_PAGE_SIZE] = {};
+
+    uint8_t *binsDataPtr = (uint8_t *)&binsData;
+    for (int i = 0; i < sizeof(binsData); i++)
+    {
+        buf[i] = binsDataPtr[i];
     }
 
-    uint8_t * ap = (uint8_t*) getAddressPersistent();
+    uint8_t *ap = (uint8_t *)getAddressPersistent();
     uint32_t xb = XIP_BASE;
     uint32_t xb_offset = (uint32_t)ap - xb;
 
     printf("Persistent flash address: %p. Offset from XIP_BASE: %x\n", ap, xb_offset);
     printf("Flash contents:\n");
-    for (int i=0;i<32;i++){
-        for (int j = 0; j<16;j++){
-            printf("%3u ",ap[i*16+j]);
+    for (int i = 0; i < 32; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            printf("%3u ", ap[i * 16 + j]);
         }
         printf("\n");
     }
     printf("\n\n");
 
     uint32_t ints = save_and_disable_interrupts();
-    flash_range_erase(xb_offset,FLASH_SECTOR_SIZE);
+    flash_range_erase(xb_offset, FLASH_SECTOR_SIZE);
     flash_range_program(xb_offset, buf, FLASH_PAGE_SIZE);
-    restore_interrupts (ints);
+    restore_interrupts(ints);
 
     printf("Flash contents after write:\n");
-    for (int i=0;i<32;i++){
-        for (int j = 0; j<16;j++){
-            printf("%3u ",ap[i*16+j]);
+    for (int i = 0; i < 32; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            printf("%3u ", ap[i * 16 + j]);
         }
         printf("\n");
     }
     printf("\n\n");
 }
 
-struct Bin_Info * read_flash(){
-    struct Bin_Info * ap = (struct Bin_Info*) getAddressPersistent();
+struct Bin_Info *read_flash()
+{
+    struct Bin_Info *ap = (struct Bin_Info *)getAddressPersistent();
     return ap;
 }
- 
+
+// fills an array of int - one for each bin type
+// -1 means no collection for that bin colour
+void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_y, uint8_t clock_m, uint8_t clock_d)
+{
+    printf("Clock: year, month, day %d, %d, %d \n",clock_y,clock_m,clock_d);
+    // TODO #### validate rtc date values
+    struct tm clocktime={};
+    clocktime.tm_mday = clock_d;
+    clocktime.tm_mon = clock_m-1;
+    clocktime.tm_year = clock_y-1900;
+    time_t clocktime_tm = mktime(&clocktime);
+
+    struct Bin_Info *bd = read_flash();
+    for (int bt = 0; bt < NUM_BIN_KINDS; bt++)
+    {
+        if (bd[bt].interval==0){
+            dayArray[bt]=-1;
+        }
+        else{
+            // calculate the interval
+            struct tm bintime={};
+            bintime.tm_mday=bd[bt].dd;      // tm day of month is 1-31
+            bintime.tm_mon=bd[bt].mm-1;     // tm month is from 0-11
+            bintime.tm_year=bd[bt].yy+100;  // Convert from yy to years since 1900
+            time_t bintime_tm = mktime(&bintime);
+            double dd = difftime(clocktime_tm, bintime_tm)/(3600.0*24.0);
+            printf("Bin index: %d, difference: %d\n", bt, dd);
+            dayArray[bt]=(int)dd;
+        }
+    }
+}

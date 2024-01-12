@@ -5,10 +5,14 @@
  * Licensed under the MIT license.
  */
 
+/*
+ * Added ability to specify I2C pins in init
+*/
+
 #include "pico/stdlib.h"
 
-#ifndef __SIMPLE_DS3231_HPP__
-#define __SIMPLE_DS3231_HPP__
+#ifndef SIMPLE_DS3231_NEW_HPP
+#define SIMPLE_DS3231_NEW_HPP
 
 class SimpleDS3231 {
 private:
@@ -39,7 +43,7 @@ private:
     uint8_t             _encode_hou(uint8_t hou, bool am_pm_format, bool is_pm);
 
 public:
-    SimpleDS3231();
+    SimpleDS3231(uint SDA_pin, uint SCL_pin);
 
     uint8_t             get_temp();
 
@@ -65,4 +69,4 @@ public:
     void                set_date(uint8_t day, uint8_t mon, int year);
 };
 
-#endif /* __SIMPLE_DS3231_HPP__ */
+#endif /* SIMPLE_DS3231_NEW_HPP */

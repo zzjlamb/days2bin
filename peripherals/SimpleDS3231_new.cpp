@@ -5,7 +5,7 @@
  * Licensed under the MIT license.
  */
 
-#include "SimpleDS3231.hpp"
+#include "SimpleDS3231_new.hpp"
 #include "ds3231.h"
 
 #include "hardware/i2c.h"
@@ -86,15 +86,13 @@
 
 #define ASCII_OFFSET        48
 
-SimpleDS3231::SimpleDS3231()
+SimpleDS3231::SimpleDS3231(uint SDA_pin, uint SCL_pin)
 {
-    #define DS3231_SDA_PIN 16
-    #define DS3231_SCL_PIN 17
     i2c_init(i2c_default, 400000);
-    gpio_set_function(DS3231_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(DS3231_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(DS3231_SDA_PIN);
-    gpio_pull_up(DS3231_SCL_PIN);
+    gpio_set_function(SDA_pin, GPIO_FUNC_I2C);
+    gpio_set_function(SCL_pin, GPIO_FUNC_I2C);
+    gpio_pull_up(SDA_pin);
+    gpio_pull_up(SCL_pin);
 }
 
 void SimpleDS3231::_read_data_reg(uint8_t reg, uint8_t n_regs)

@@ -29,7 +29,7 @@ static inline uint32_t urgb_u32(uint8_t r, uint8_t g, uint8_t b)
 
 void glowbit_init()
 {
-    printf("WS2812B using GPIO %d\n", WS2812_PIN);
+    //printf("WS2812B using GPIO %d\n", WS2812_PIN);
 
     PIO pio = pio0;
     int sm = 0;
@@ -58,7 +58,7 @@ void clearScreen()
     show();
 }
 
-void drawChar(char ch)
+void drawChar(char ch, uint8_t r, uint8_t g, uint8_t b)
 {
     if (ch > 127)
         ch = '.';
@@ -77,7 +77,7 @@ void drawChar(char ch)
     }
 }
 
-void scrollText(std::string text)
+void scrollText(std::string text, uint8_t r, uint8_t g, uint8_t b)
 {
     int textLength = text.length();
 
@@ -110,7 +110,7 @@ void scrollText(std::string text)
         for (int display_cursorY = 0; display_cursorY < 8; display_cursorY++)
         {
             bool pixel = (column << display_cursorY) & 0b10000000;
-            display_buffer[7 - display_cursorY][7] = pixel ? urgb_u32(0x50, 0x50, 0x50) : 0;
+            display_buffer[7 - display_cursorY][7] = pixel ? urgb_u32(r, g, b) : 0;
         }
         show();
         sleep_ms(100);

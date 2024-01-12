@@ -1639,29 +1639,29 @@ home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-peripherals/SimpleDS3231.obj: peripherals/SimpleDS3231.cpp.obj
-.PHONY : peripherals/SimpleDS3231.obj
+peripherals/SimpleDS3231_new.obj: peripherals/SimpleDS3231_new.cpp.obj
+.PHONY : peripherals/SimpleDS3231_new.obj
 
 # target to build an object file
-peripherals/SimpleDS3231.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.obj
-.PHONY : peripherals/SimpleDS3231.cpp.obj
+peripherals/SimpleDS3231_new.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj
+.PHONY : peripherals/SimpleDS3231_new.cpp.obj
 
-peripherals/SimpleDS3231.i: peripherals/SimpleDS3231.cpp.i
-.PHONY : peripherals/SimpleDS3231.i
+peripherals/SimpleDS3231_new.i: peripherals/SimpleDS3231_new.cpp.i
+.PHONY : peripherals/SimpleDS3231_new.i
 
 # target to preprocess a source file
-peripherals/SimpleDS3231.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.i
-.PHONY : peripherals/SimpleDS3231.cpp.i
+peripherals/SimpleDS3231_new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.i
+.PHONY : peripherals/SimpleDS3231_new.cpp.i
 
-peripherals/SimpleDS3231.s: peripherals/SimpleDS3231.cpp.s
-.PHONY : peripherals/SimpleDS3231.s
+peripherals/SimpleDS3231_new.s: peripherals/SimpleDS3231_new.cpp.s
+.PHONY : peripherals/SimpleDS3231_new.s
 
 # target to generate assembly for a file
-peripherals/SimpleDS3231.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231.cpp.s
-.PHONY : peripherals/SimpleDS3231.cpp.s
+peripherals/SimpleDS3231_new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.s
+.PHONY : peripherals/SimpleDS3231_new.cpp.s
 
 peripherals/busscan.obj: peripherals/busscan.c.obj
 .PHONY : peripherals/busscan.obj
@@ -1905,9 +1905,9 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... peripherals/SimpleDS3231.obj"
-	@echo "... peripherals/SimpleDS3231.i"
-	@echo "... peripherals/SimpleDS3231.s"
+	@echo "... peripherals/SimpleDS3231_new.obj"
+	@echo "... peripherals/SimpleDS3231_new.i"
+	@echo "... peripherals/SimpleDS3231_new.s"
 	@echo "... peripherals/busscan.obj"
 	@echo "... peripherals/busscan.i"
 	@echo "... peripherals/busscan.s"

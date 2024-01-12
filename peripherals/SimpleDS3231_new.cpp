@@ -88,11 +88,13 @@
 
 SimpleDS3231::SimpleDS3231()
 {
+    #define DS3231_SDA_PIN 16
+    #define DS3231_SCL_PIN 17
     i2c_init(i2c_default, 400000);
-    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    gpio_set_function(DS3231_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(DS3231_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(DS3231_SDA_PIN);
+    gpio_pull_up(DS3231_SCL_PIN);
 }
 
 void SimpleDS3231::_read_data_reg(uint8_t reg, uint8_t n_regs)

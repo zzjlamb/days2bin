@@ -27,7 +27,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(days2bin days2bin.cpp flash/flash_utils.c peripherals/SimpleDS3231.cpp peripherals/busscan.c)
+add_executable(days2bin days2bin.cpp flash/flash_utils.c peripherals/SimpleDS3231_new.cpp peripherals/busscan.c)
 
 add_subdirectory(peripherals)
 

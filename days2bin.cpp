@@ -32,11 +32,11 @@ int main()
     stdio_init_all();
     glowbit_init();
 
-    /*
+    
     //for debugging and development only
-    make_test_data();
-    write_flash();
-    */
+   // make_test_data();
+   // write_flash();
+    
 
     struct Bin_Info *bi = read_flash();
 
@@ -45,34 +45,42 @@ int main()
         printf("Bintype %d: day: %d month: %d year: %d Interval: %d\n", i, bi[i].dd, bi[i].mm, bi[i].yy, bi[i].interval);
     }
 
-    //rtc.set_time( 21,  18,  0, false, true);
-   // rtc.set_date(12,1,2024);
+    // rtc.set_time( 17, 12,  0, false, true);
+    // rtc.set_date(13,1,2024);
 
     printf("\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
 
     int dtc[NUM_BIN_KINDS];
-    getDaysToCollection(dtc, rtc.get_year(),rtc.get_mon(),rtc.get_day());
-    
+    getDaysToCollection(dtc, rtc.get_year(), rtc.get_mon(), rtc.get_day());
 
-    while (0)
+    for (int j = 0; j < 4; j++)
     {
-        char s[100] = {};
-        sprintf(s, "\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
-        printf("%s\n", s);
-        scrollText(s,0x40, 0, 0);
-    };
 
-    /*
-        while (0)
+        for (int i = 0; i < NUM_BIN_KINDS; i++)
         {
-            clearScreen();
-            sleep_ms(500);
-            char aNumberString[20];
-            printf("%s %dC\n", rtc.get_time_str(), rtc.get_temp());
-            snprintf(aNumberString, 16, "%s %dC", rtc.get_time_str(), rtc.get_temp());
-            scrollText(aNumberString);
-
-            sleep_ms(500);
-        }
-    */
+            char s[10] = {};
+            sprintf(s, "%d", dtc[i]);
+            int r = 0;
+            int g = 0;
+            int b = 0;
+            switch (i)
+            {
+            case 0:
+                r = 0x30;
+                break;
+            case 1:
+                r = 0x30;
+                g = 0x30;
+                break;
+            case 2:
+                g = 0x30;
+                break;
+            }
+            if (dtc[i] > 0)
+                scrollText(s, r, g, b);
+        };
+    };
+    // Power down
+    gpio_put(stay_powered_on_PIN, 0);
+    sleep_ms(500);
 }

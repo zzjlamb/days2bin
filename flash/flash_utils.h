@@ -35,7 +35,7 @@ void write_flash();
 struct Bin_Info * read_flash();
 // fills an array of int - one for each bin type
 // -1 means no collection for that bin colour 
-void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_y, uint8_t clock_m, uint8_t clock_d);
+void getDaysToCollection(int dayArray[NUM_BIN_KINDS], int clock_y, uint8_t clock_m, uint8_t clock_d);
 
 #ifdef __cplusplus
 }

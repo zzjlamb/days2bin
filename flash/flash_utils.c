@@ -11,6 +11,7 @@ Our target sector is 4k from xb_offset +
 #include "hardware/flash.h"
 #include <hardware/sync.h>
 #include "time.h"
+#include <math.h>
 
 struct Bin_Info binsData[NUM_BIN_KINDS] = {};
 
@@ -83,7 +84,7 @@ struct Bin_Info *read_flash()
 
 // fills an array of int - one for each bin type
 // -1 means no collection for that bin colour
-void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_y, uint8_t clock_m, uint8_t clock_d)
+void getDaysToCollection(int dayArray[NUM_BIN_KINDS], int_fast32_t clock_y, uint8_t clock_m, uint8_t clock_d)
 {
     printf("Clock: year, month, day %d, %d, %d \n",clock_y,clock_m,clock_d);
     // TODO #### validate rtc date values
@@ -106,9 +107,13 @@ void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_y, uint8_t c
             bintime.tm_mon=bd[bt].mm-1;     // tm month is from 0-11
             bintime.tm_year=bd[bt].yy+100;  // Convert from yy to years since 1900
             time_t bintime_tm = mktime(&bintime);
-            double dd = difftime(clocktime_tm, bintime_tm)/(3600.0*24.0);
-            printf("Bin index: %d, difference: %d\n", bt, dd);
-            dayArray[bt]=(int)dd;
+            double dd = difftime(clocktime_tm, bintime_tm);
+            double ddDays = dd/(3600*24);
+            printf ("dd: %f\n",dd);
+            printf("Bin index: %d, difference: %f\n", bt, ddDays);
+            int btInt = round(ddDays);
+            dayArray[bt]=bd[bt].interval-(btInt%bd[bt].interval);
+            printf("dayArray[%d]:%d\n",bt,dayArray[bt]);
         }
     }
 }

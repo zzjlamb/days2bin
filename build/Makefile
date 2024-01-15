@@ -207,6 +207,78 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+access_point/dhcpserver/dhcpserver.obj: access_point/dhcpserver/dhcpserver.c.obj
+.PHONY : access_point/dhcpserver/dhcpserver.obj
+
+# target to build an object file
+access_point/dhcpserver/dhcpserver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj
+.PHONY : access_point/dhcpserver/dhcpserver.c.obj
+
+access_point/dhcpserver/dhcpserver.i: access_point/dhcpserver/dhcpserver.c.i
+.PHONY : access_point/dhcpserver/dhcpserver.i
+
+# target to preprocess a source file
+access_point/dhcpserver/dhcpserver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.i
+.PHONY : access_point/dhcpserver/dhcpserver.c.i
+
+access_point/dhcpserver/dhcpserver.s: access_point/dhcpserver/dhcpserver.c.s
+.PHONY : access_point/dhcpserver/dhcpserver.s
+
+# target to generate assembly for a file
+access_point/dhcpserver/dhcpserver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.s
+.PHONY : access_point/dhcpserver/dhcpserver.c.s
+
+access_point/dnsserver/dnsserver.obj: access_point/dnsserver/dnsserver.c.obj
+.PHONY : access_point/dnsserver/dnsserver.obj
+
+# target to build an object file
+access_point/dnsserver/dnsserver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj
+.PHONY : access_point/dnsserver/dnsserver.c.obj
+
+access_point/dnsserver/dnsserver.i: access_point/dnsserver/dnsserver.c.i
+.PHONY : access_point/dnsserver/dnsserver.i
+
+# target to preprocess a source file
+access_point/dnsserver/dnsserver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.i
+.PHONY : access_point/dnsserver/dnsserver.c.i
+
+access_point/dnsserver/dnsserver.s: access_point/dnsserver/dnsserver.c.s
+.PHONY : access_point/dnsserver/dnsserver.s
+
+# target to generate assembly for a file
+access_point/dnsserver/dnsserver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.s
+.PHONY : access_point/dnsserver/dnsserver.c.s
+
+access_point/picow_access_point.obj: access_point/picow_access_point.c.obj
+.PHONY : access_point/picow_access_point.obj
+
+# target to build an object file
+access_point/picow_access_point.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj
+.PHONY : access_point/picow_access_point.c.obj
+
+access_point/picow_access_point.i: access_point/picow_access_point.c.i
+.PHONY : access_point/picow_access_point.i
+
+# target to preprocess a source file
+access_point/picow_access_point.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/picow_access_point.c.i
+.PHONY : access_point/picow_access_point.c.i
+
+access_point/picow_access_point.s: access_point/picow_access_point.c.s
+.PHONY : access_point/picow_access_point.s
+
+# target to generate assembly for a file
+access_point/picow_access_point.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/picow_access_point.c.s
+.PHONY : access_point/picow_access_point.c.s
+
 days2bin.obj: days2bin.cpp.obj
 .PHONY : days2bin.obj
 
@@ -350,6 +422,2046 @@ home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/john/pico/pico-
 home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.obj: home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.i: home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.s: home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.obj: home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.i: home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.s: home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/err.obj: home/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/err.i: home/john/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/err.s: home/john/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/err.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.obj: home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.i: home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.s: home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.obj: home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.i: home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.s: home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.obj: home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.i: home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.s: home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.obj: home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.i: home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.s: home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.obj: home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.i: home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.s: home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.obj: home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.i: home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.s: home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.i: home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.s: home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/def.obj: home/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/def.i: home/john/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/def.s: home/john/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/def.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.obj: home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.i: home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.s: home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/init.obj: home/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/init.i: home/john/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/init.s: home/john/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/init.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.i: home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.s: home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.obj: home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.i: home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.s: home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.i: home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.s: home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.obj: home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.i: home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.s: home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.obj: home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.i: home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.s: home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.obj: home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.i: home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.s: home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.obj: home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.i: home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.s: home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.obj: home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.i: home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.s: home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.i: home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.s: home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.obj: home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.i: home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.s: home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.i: home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.s: home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.i: home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.s: home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.obj: home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.i: home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.s: home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
 home/john/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/john/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -991,29 +3103,29 @@ home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.obj: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.obj
 
 # target to build an object file
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj
 
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.i: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.i
 
 # target to preprocess a source file
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.i
 
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.s: home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.s
 
 # target to generate assembly for a file
-home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
@@ -1383,6 +3495,30 @@ home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
 home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
@@ -1462,6 +3598,30 @@ home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/john/pico/pico
 home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
@@ -1726,6 +3886,15 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... days2bin"
+	@echo "... access_point/dhcpserver/dhcpserver.obj"
+	@echo "... access_point/dhcpserver/dhcpserver.i"
+	@echo "... access_point/dhcpserver/dhcpserver.s"
+	@echo "... access_point/dnsserver/dnsserver.obj"
+	@echo "... access_point/dnsserver/dnsserver.i"
+	@echo "... access_point/dnsserver/dnsserver.s"
+	@echo "... access_point/picow_access_point.obj"
+	@echo "... access_point/picow_access_point.i"
+	@echo "... access_point/picow_access_point.s"
 	@echo "... days2bin.obj"
 	@echo "... days2bin.i"
 	@echo "... days2bin.s"
@@ -1744,6 +3913,261 @@ help:
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
 	@echo "... home/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/err.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/if_api.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netdb.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/sockets.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/def.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/dns.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/init.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ip.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/mem.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/memp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/netif.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/raw.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/stats.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/sys.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/udp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... home/john/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/john/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/john/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1824,9 +4248,9 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
-	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.obj"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.i"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.s"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
@@ -1873,6 +4297,9 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
@@ -1883,6 +4310,9 @@ help:
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"

@@ -27,9 +27,19 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(days2bin days2bin.cpp flash/flash_utils.c peripherals/SimpleDS3231_new.cpp peripherals/busscan.c)
+add_executable(days2bin 
+      days2bin.cpp 
+      flash/flash_utils.c 
+      peripherals/SimpleDS3231_new.cpp 
+      peripherals/busscan.c
+      peripherals/glowbit.cpp
+      access_point/picow_access_point.c
+      access_point/dhcpserver/dhcpserver.c
+      access_point/dnsserver/dnsserver.c
+      )
 
-add_subdirectory(peripherals)
+#add_subdirectory(peripherals)
+#add_subdirectory(access_point)
 
 pico_set_linker_script(days2bin ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
 
@@ -47,12 +57,16 @@ target_link_libraries(days2bin
 # Add the standard include files to the build
 target_include_directories(days2bin PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
-  ${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
+  #${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
+  ${CMAKE_CURRENT_LIST_DIR}/access_point
+  ${CMAKE_CURRENT_LIST_DIR}/access_point/dhcpserver
+  ${CMAKE_CURRENT_LIST_DIR}/access_point/dnsserver
 )
 
 # Add any user requested libraries
 target_link_libraries(days2bin 
-        pico_cyw43_arch_none
+        #pico_cyw43_arch_none
+        pico_cyw43_arch_lwip_poll
         )
 
 pico_add_extra_outputs(days2bin)

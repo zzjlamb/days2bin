@@ -19,6 +19,7 @@
 #include "peripherals/SimpleDS3231_new.hpp"
 #include "peripherals/glowbit.hpp"
 #include "days2bin.hpp"
+#include "access_point.h"
 
 int main()
 {
@@ -31,6 +32,9 @@ int main()
     SimpleDS3231 rtc(DS3231_SDA_PIN, DS3231_SCL_PIN);
     stdio_init_all();
     glowbit_init();
+
+    int result = access_point();
+    printf("access_point result: %d\n", result);
 
     
     //for debugging and development only

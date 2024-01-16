@@ -36,6 +36,7 @@ add_executable(days2bin
       access_point/picow_access_point.c
       access_point/dhcpserver/dhcpserver.c
       access_point/dnsserver/dnsserver.c
+      access_point/ssi.c
       )
 
 #add_subdirectory(peripherals)
@@ -67,6 +68,7 @@ target_include_directories(days2bin PRIVATE
 target_link_libraries(days2bin 
         #pico_cyw43_arch_none
         pico_cyw43_arch_lwip_poll
+        pico_lwip_http
         )
 
 pico_add_extra_outputs(days2bin)

@@ -52,6 +52,16 @@
 #define DHCP_DOES_ARP_CHECK         0
 #define LWIP_DHCP_DOES_ACD_CHECK    0
 
+//HTTPD
+#define LWIP_HTTPD 1
+#define LWIP_HTTPD_SSI 1
+#define LWIP_HTTPD_CGI 0
+// don't include the tag comment - less work for the CPU, but may be harder to debug
+#define LWIP_HTTPD_SSI_INCLUDE_TAG 0
+// use generated fsdata
+#define HTTPD_FSDATA_FILE "my_fsdata.c"
+#define LWIP_HTTPD_CUSTOM_FILES   1
+
 #ifndef NDEBUG
 #define LWIP_DEBUG                  1
 #define LWIP_STATS                  1

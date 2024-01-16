@@ -11,6 +11,8 @@
 
 #include "lwip/pbuf.h"
 #include "lwip/tcp.h"
+#include "lwip/apps/httpd.h"
+#include "ssi.h"
 
 #include "dhcpserver.h"
 #include "dnsserver.h"
@@ -311,7 +313,7 @@ int access_point() {
     stdio_set_chars_available_callback(key_pressed_func, state);
 
     const char *ap_name = "picow_test";
-#if 1
+#if 0
     const char *password = "password";
 #else
     const char *password = NULL;
@@ -331,10 +333,13 @@ int access_point() {
     dns_server_t dns_server;
     dns_server_init(&dns_server, &state->gw);
 
-    if (!tcp_server_open(state, ap_name)) {
-        DEBUG_printf("failed to open server\n");
-        return 1;
-    }
+    //if (!tcp_server_open(state, ap_name)) {
+    //    DEBUG_printf("failed to open server\n");
+    //    return 1;
+    //}
+
+    httpd_init();
+    ssi_init();
 
     state->complete = false;
     while(!state->complete) {

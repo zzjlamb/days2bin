@@ -279,6 +279,30 @@ access_point/picow_access_point.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/picow_access_point.c.s
 .PHONY : access_point/picow_access_point.c.s
 
+access_point/ssi.obj: access_point/ssi.c.obj
+.PHONY : access_point/ssi.obj
+
+# target to build an object file
+access_point/ssi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/ssi.c.obj
+.PHONY : access_point/ssi.c.obj
+
+access_point/ssi.i: access_point/ssi.c.i
+.PHONY : access_point/ssi.i
+
+# target to preprocess a source file
+access_point/ssi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/ssi.c.i
+.PHONY : access_point/ssi.c.i
+
+access_point/ssi.s: access_point/ssi.c.s
+.PHONY : access_point/ssi.s
+
+# target to generate assembly for a file
+access_point/ssi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/ssi.c.s
+.PHONY : access_point/ssi.c.s
+
 days2bin.obj: days2bin.cpp.obj
 .PHONY : days2bin.obj
 
@@ -638,6 +662,102 @@ home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.s: home/john/pico/pico-sdk/lib/lw
 home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
 .PHONY : home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj: home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.i: home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.s: home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj: home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i: home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.s: home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj: home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj
+
+# target to build an object file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i: home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i
+
+# target to preprocess a source file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.s: home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.s
+
+# target to generate assembly for a file
+home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+.PHONY : home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 
 home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj: home/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
 .PHONY : home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj
@@ -3895,6 +4015,9 @@ help:
 	@echo "... access_point/picow_access_point.obj"
 	@echo "... access_point/picow_access_point.i"
 	@echo "... access_point/picow_access_point.s"
+	@echo "... access_point/ssi.obj"
+	@echo "... access_point/ssi.i"
+	@echo "... access_point/ssi.s"
 	@echo "... days2bin.obj"
 	@echo "... days2bin.i"
 	@echo "... days2bin.s"
@@ -3940,6 +4063,18 @@ help:
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.obj"
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.s"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i"
+	@echo "... home/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.s"
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.obj"
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.i"
 	@echo "... home/john/pico/pico-sdk/lib/lwip/src/core/altcp.s"

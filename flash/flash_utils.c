@@ -13,7 +13,7 @@ Our target sector is 4k from xb_offset +
 #include "time.h"
 #include <math.h>
 
-struct Bin_Info binsData[NUM_BIN_KINDS] = {};
+struct Bin_Info binsData[NUM_BIN_KINDS+1] = {};
 
 // Populate the binsData array with some test settings
 void make_test_data()
@@ -30,6 +30,8 @@ void make_test_data()
     binsData[YELLOW_BIN].interval = 14;
 
     binsData[GREEN_BIN].interval = 0;
+    
+    binsData[MAGIC_NUMBER_BIN].interval = MAGIC_NUMBER;
 }
 
 void write_flash()
@@ -109,10 +111,10 @@ void getDaysToCollection(int dayArray[NUM_BIN_KINDS], int_fast32_t clock_y, uint
             time_t bintime_tm = mktime(&bintime);
             double dd = difftime(clocktime_tm, bintime_tm);
             double ddDays = dd/(3600*24);
-            printf ("dd: %f\n",dd);
-            printf("Bin index: %d, difference: %f\n", bt, ddDays);
             int btInt = round(ddDays);
-            dayArray[bt]=bd[bt].interval-(btInt%bd[bt].interval);
+            int intvl = bd[bt].interval;
+            int mod_intvl = btInt % intvl;
+            dayArray[bt] = (mod_intvl>=0) ? intvl - mod_intvl : -mod_intvl;
             printf("dayArray[%d]:%d\n",bt,dayArray[bt]);
         }
     }

@@ -12,6 +12,9 @@ extern "C" {
 #define RED_BIN 0
 #define YELLOW_BIN 1
 #define GREEN_BIN 2
+#define MAGIC_NUMBER_BIN 3      // Dummy extra bin to hold magic number
+#define MAGIC_NUMBER 0xA4       // Bit pattern to indicate flash data has been initialised
+                                // Erased flash would be 0xFF
 
 struct Bin_Info {
     // Initial collection date

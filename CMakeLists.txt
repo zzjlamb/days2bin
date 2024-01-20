@@ -20,6 +20,23 @@ if (PICO_SDK_VERSION_STRING VERSION_LESS "1.4.0")
   message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.4.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
 endif()
 
+set(MAKE_FS_DATA_SCRIPT ${CMAKE_CURRENT_LIST_DIR}/external/makefsdata)
+
+if (NOT EXISTS ${MAKE_FS_DATA_SCRIPT})
+        file(DOWNLOAD
+                https://raw.githubusercontent.com/krzmaz/lwip/e15654409d14a238aec5ed4bd5516063938c9345/src/apps/http/makefsdata/makefsdata
+                ${MAKE_FS_DATA_SCRIPT}
+                )
+endif()
+message("Running makefsdata script")
+execute_process(COMMAND
+        perl ${MAKE_FS_DATA_SCRIPT}
+        WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
+        ECHO_OUTPUT_VARIABLE
+        ECHO_ERROR_VARIABLE
+        )
+file(RENAME fsdata.c my_fsdata.c)
+
 project(days2bin C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
@@ -37,6 +54,7 @@ add_executable(days2bin
       access_point/dhcpserver/dhcpserver.c
       access_point/dnsserver/dnsserver.c
       access_point/ssi.c
+      access_point/cgi.c
       )
 
 #add_subdirectory(peripherals)
@@ -58,7 +76,7 @@ target_link_libraries(days2bin
 # Add the standard include files to the build
 target_include_directories(days2bin PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
-  #${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
+  ${CMAKE_CURRENT_LIST_DIR}/.. # for our common lwipopts or any other standard includes, if required
   ${CMAKE_CURRENT_LIST_DIR}/access_point
   ${CMAKE_CURRENT_LIST_DIR}/access_point/dhcpserver
   ${CMAKE_CURRENT_LIST_DIR}/access_point/dnsserver

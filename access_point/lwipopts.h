@@ -55,12 +55,15 @@
 //HTTPD
 #define LWIP_HTTPD 1
 #define LWIP_HTTPD_SSI 1
-#define LWIP_HTTPD_CGI 0
+#define LWIP_HTTPD_CGI 1
 // don't include the tag comment - less work for the CPU, but may be harder to debug
 #define LWIP_HTTPD_SSI_INCLUDE_TAG 0
 // use generated fsdata
 #define HTTPD_FSDATA_FILE "my_fsdata.c"
-#define LWIP_HTTPD_CUSTOM_FILES   1
+#define LWIP_HTTPD_CUSTOM_FILES   0
+#define LWIP_HTTPD_FILE_EXTENSION 0
+#define LWIP_HTTPD_DYNAMIC_HEADERS   0
+
 
 #ifndef NDEBUG
 #define LWIP_DEBUG                  1

@@ -207,6 +207,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+access_point/cgi.obj: access_point/cgi.c.obj
+.PHONY : access_point/cgi.obj
+
+# target to build an object file
+access_point/cgi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/cgi.c.obj
+.PHONY : access_point/cgi.c.obj
+
+access_point/cgi.i: access_point/cgi.c.i
+.PHONY : access_point/cgi.i
+
+# target to preprocess a source file
+access_point/cgi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/cgi.c.i
+.PHONY : access_point/cgi.c.i
+
+access_point/cgi.s: access_point/cgi.c.s
+.PHONY : access_point/cgi.s
+
+# target to generate assembly for a file
+access_point/cgi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/cgi.c.s
+.PHONY : access_point/cgi.c.s
+
 access_point/dhcpserver/dhcpserver.obj: access_point/dhcpserver/dhcpserver.c.obj
 .PHONY : access_point/dhcpserver/dhcpserver.obj
 
@@ -4006,6 +4030,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... days2bin"
+	@echo "... access_point/cgi.obj"
+	@echo "... access_point/cgi.i"
+	@echo "... access_point/cgi.s"
 	@echo "... access_point/dhcpserver/dhcpserver.obj"
 	@echo "... access_point/dhcpserver/dhcpserver.i"
 	@echo "... access_point/dhcpserver/dhcpserver.s"

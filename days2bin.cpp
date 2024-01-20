@@ -11,8 +11,6 @@
 
 #include "pico/stdlib.h"
 
-#include "hardware/clocks.h"
-
 #include "peripherals/busscan.h"
 #include "flash/flash_utils.h"
 
@@ -33,24 +31,22 @@ int main()
     stdio_init_all();
     glowbit_init();
 
-    int result = access_point();
-    printf("access_point result: %d\n", result);
+     int result = access_point();
+     printf("access_point result: %d\n", result);
 
-    
-    //for debugging and development only
-   // make_test_data();
-   // write_flash();
-    
+    // for debugging and development only
+    // make_test_data();
+    // write_flash();
 
     struct Bin_Info *bi = read_flash();
 
-    for (int i = 0; i < NUM_BIN_KINDS; i++)
+    for (int i = 0; i < NUM_BIN_KINDS + 1; i++)
     {
         printf("Bintype %d: day: %d month: %d year: %d Interval: %d\n", i, bi[i].dd, bi[i].mm, bi[i].yy, bi[i].interval);
     }
 
-    // rtc.set_time( 17, 12,  0, false, true);
-    // rtc.set_date(13,1,2024);
+    //rtc.set_time( 20, 06,  0, false, true);
+    //rtc.set_date(17,1,2024);
 
     printf("\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
 
@@ -86,5 +82,5 @@ int main()
     };
     // Power down
     gpio_put(stay_powered_on_PIN, 0);
-    sleep_ms(500);
+    sleep_ms(500); // This seems to be necessary to keep the gpio low long enough to power down
 }

@@ -17,6 +17,8 @@ while($file = <FILES>) {
     open(HEADER, "> /tmp/header") || die $!;
     if($file =~ /404/) {
 	print(HEADER "HTTP/1.0 404 File not found\r\n");
+    } elsif($file =~ /hotspot/){
+    print(HEADER "HTTP/1.1 302 Redirect\nLocation: http://192.168.4.1/index.shtml\n\n");
     } else {
 	print(HEADER "HTTP/1.0 200 OK\r\n");
     }
@@ -93,6 +95,5 @@ for($i = 0; $i < @fvars; $i++) {
     print(OUTPUT "sizeof(data$fvar) - ". (length($file) + 1) .", FS_FILE_FLAGS_HEADER_INCLUDED | FS_FILE_FLAGS_HEADER_PERSISTENT}};\n\n");
 }
 
-#print(OUTPUT "#define FS_ROOT file$fvars[$i - 1]\n\n");
-print(OUTPUT "#define FS_ROOT file_index_shtml\n\n");
+print(OUTPUT "#define FS_ROOT file$fvars[$i - 1]\n\n");
 print(OUTPUT "#define FS_NUMFILES $i\n");

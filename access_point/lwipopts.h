@@ -60,9 +60,11 @@
 #define LWIP_HTTPD_SSI_INCLUDE_TAG 0
 // use generated fsdata
 #define HTTPD_FSDATA_FILE "my_fsdata.c"
-#define LWIP_HTTPD_CUSTOM_FILES   0
-#define LWIP_HTTPD_FILE_EXTENSION 0
+#define LWIP_HTTPD_CUSTOM_FILES   1
+#define LWIP_HTTPD_FILE_EXTENSION 1
 #define LWIP_HTTPD_DYNAMIC_HEADERS   0
+
+#define HTTPD_DEBUG LWIP_DBG_ON
 
 
 #ifndef NDEBUG

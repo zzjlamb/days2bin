@@ -65,19 +65,41 @@ void ssi_init()
 */
 
 const char redirect_html[] =
-    "<html>\n"
-    "<head>\n"
-    "<meta http-equiv=\"refresh\" content=\"0; url='/index.shtml'\" />\n"
-    "</head>"
-    "<body>"
-    "<p>You will be redirected to Days2Bin soon!</p>"
-    "</body>"
-    "</html>";
+    "HTTP/1.1 302 Redirect\n"
+"Location: http://192.168.4.1/index.shtml\n\n"
+"Server: lwIP/pre-0.6 (http://www.sics.se/~adam/lwip/)\n"
+"Content-type: text/html\n\n"
+"<!DOCTYPE html>"
+"<html>"
+"<meta http-equiv=\"Refresh\" content=\"0; url='http://192.168.4.1/index.shtml'\" />"
+    "<head> <title>Pico W Redirect</title> </head>"
+    "<body> <h1>Pico W Redirect</h1>"
+        "<p>Redirecting to /index.shtml</p>"
+   "</body>"
+"</html>";
 
+// We need to treat this as a custom file because it has a "-" in the name
 int fs_open_custom(struct fs_file *file, const char *name)
 {
+    if (strcmp(name,"/hotspot-detect.html")){
+        return 0;
+    }
+    // Here if the requested file is "/hotspot-detect.html"
     printf("%s\n", name);
-    return 0;
+        /* initialize fs_file correctly */
+    memset(file, 0, sizeof(struct fs_file));
+    file->pextension = mem_malloc(sizeof(redirect_html));
+    if (file->pextension != NULL) {
+      /* instead of doing memcpy, you would generate e.g. a JSON here */
+      memcpy(file->pextension, redirect_html, sizeof(redirect_html));
+      file->data = (const char *)file->pextension;
+      file->len = sizeof(redirect_html) - 1; /* don't send the trailing 0 */
+      file->index = file->len;
+      /* allow persisting connections */
+      file->flags = FS_FILE_FLAGS_HEADER_PERSISTENT || FS_FILE_FLAGS_HEADER_INCLUDED;
+      return 1;
+    }
+
 }
 
 
@@ -88,8 +110,11 @@ return 0;
 }
 */
 
-
-void fs_close_custom(struct fs_file *file)
+void
+fs_close_custom(struct fs_file *file)
 {
-
+  if (file && file->pextension) {
+    mem_free(file->pextension);
+    file->pextension = NULL;
+  }
 }

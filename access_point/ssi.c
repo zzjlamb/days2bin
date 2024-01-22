@@ -66,42 +66,42 @@ void ssi_init()
 
 const char redirect_html[] =
     "HTTP/1.1 302 Redirect\n"
-"Location: http://192.168.4.1/index.shtml\n\n"
-"Server: lwIP/pre-0.6 (http://www.sics.se/~adam/lwip/)\n"
-"Content-type: text/html\n\n"
-"<!DOCTYPE html>"
-"<html>"
-"<meta http-equiv=\"Refresh\" content=\"0; url='http://192.168.4.1/index.shtml'\" />"
+    "Location: http://192.168.4.1/index.shtml\n\n"
+    "Server: lwIP/pre-0.6 (http://www.sics.se/~adam/lwip/)\n"
+    "Content-type: text/html\n\n"
+    "<!DOCTYPE html>"
+    "<html>"
+    "<meta http-equiv=\"Refresh\" content=\"0; url='http://192.168.4.1/index.shtml'\" />"
     "<head> <title>Pico W Redirect</title> </head>"
     "<body> <h1>Pico W Redirect</h1>"
-        "<p>Redirecting to /index.shtml</p>"
-   "</body>"
-"</html>";
+    "<p>Redirecting to /index.shtml</p>"
+    "</body>"
+    "</html>";
 
 // We need to treat this as a custom file because it has a "-" in the name
 int fs_open_custom(struct fs_file *file, const char *name)
 {
-    if (strcmp(name,"/hotspot-detect.html")){
+    if (strcmp(name, "/hotspot-detect.html"))
+    {
         return 0;
     }
     // Here if the requested file is "/hotspot-detect.html"
     printf("%s\n", name);
-        /* initialize fs_file correctly */
+    /* initialize fs_file correctly */
     memset(file, 0, sizeof(struct fs_file));
     file->pextension = mem_malloc(sizeof(redirect_html));
-    if (file->pextension != NULL) {
-      /* instead of doing memcpy, you would generate e.g. a JSON here */
-      memcpy(file->pextension, redirect_html, sizeof(redirect_html));
-      file->data = (const char *)file->pextension;
-      file->len = sizeof(redirect_html) - 1; /* don't send the trailing 0 */
-      file->index = file->len;
-      /* allow persisting connections */
-      file->flags = FS_FILE_FLAGS_HEADER_PERSISTENT || FS_FILE_FLAGS_HEADER_INCLUDED;
-      return 1;
+    if (file->pextension != NULL)
+    {
+        /* instead of doing memcpy, you would generate e.g. a JSON here */
+        memcpy(file->pextension, redirect_html, sizeof(redirect_html));
+        file->data = (const char *)file->pextension;
+        file->len = sizeof(redirect_html) - 1; /* don't send the trailing 0 */
+        file->index = file->len;
+        /* allow persisting connections */
+        file->flags = FS_FILE_FLAGS_HEADER_PERSISTENT || FS_FILE_FLAGS_HEADER_INCLUDED;
+        return 1;
     }
-
 }
-
 
 /*
 int fs_read_custom(struct fs_file *file, char *buffer, int count) {
@@ -110,11 +110,73 @@ return 0;
 }
 */
 
-void
-fs_close_custom(struct fs_file *file)
+void fs_close_custom(struct fs_file *file)
 {
-  if (file && file->pextension) {
-    mem_free(file->pextension);
-    file->pextension = NULL;
-  }
+    if (file && file->pextension)
+    {
+        mem_free(file->pextension);
+        file->pextension = NULL;
+    }
+}
+
+// POST callbacks
+// See https://lwip.nongnu.org/2_1_x/group__httpd.html#ga6cb33693ee8f0c054be82a968ceff582
+//
+/*void * 	connection,
+const char * 	uri,
+const char * 	http_request,
+u16_t 	http_request_len,
+int 	content_len,
+char * 	response_uri,
+u16_t 	response_uri_len,
+u8_t * 	post_auto_wnd
+*/
+err_t httpd_post_begin(void *connection, const char *uri, const char *http_request,
+                       u16_t http_request_len, int content_len, char *response_uri,
+                       u16_t response_uri_len, u8_t *post_auto_wnd)
+{
+    printf("httpd_post_begin called.\n");
+    printf("URI: %S\n", uri);
+    printf("http_request: %s\n", http_request);
+    printf("http_request_len: %d\n", http_request_len);
+    printf("content_len: %d\n");
+    printf("response_uri: %s\n", response_uri);
+    printf("response_uri_len: %d\n", response_uri_len);
+    printf("post_auto_wnd: %d\n\n", post_auto_wnd);
+    return ERR_OK;
+}
+
+err_t httpd_post_receive_data(void *connection, struct pbuf *p)
+{
+    printf("httpd_post_receive_data called. Length: %d\n", p->len);
+
+    err_t ret_val = ERR_VAL;
+
+    if (connection != NULL && p != NULL)
+    {
+        printf("pfuf payload: ");
+        char *data = p->payload;
+        int i=0;
+        while (i < p->len)
+        {
+            printf("%c", data[i]);
+            i++;
+        }
+        printf("\n");
+        ret_val = ERR_OK;
+    }
+
+    if (p != NULL)
+    {
+        pbuf_free(p);
+    }
+    return ret_val;
+}
+
+void httpd_post_finished(void *connection,
+                         char *response_uri,
+                         u16_t response_uri_len)
+{
+    printf("httpd_post_finished called.\n");
+    strncpy(response_uri, "/index.shtml", response_uri_len);
 }

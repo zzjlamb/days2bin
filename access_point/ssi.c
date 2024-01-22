@@ -122,15 +122,7 @@ void fs_close_custom(struct fs_file *file)
 // POST callbacks
 // See https://lwip.nongnu.org/2_1_x/group__httpd.html#ga6cb33693ee8f0c054be82a968ceff582
 //
-/*void * 	connection,
-const char * 	uri,
-const char * 	http_request,
-u16_t 	http_request_len,
-int 	content_len,
-char * 	response_uri,
-u16_t 	response_uri_len,
-u8_t * 	post_auto_wnd
-*/
+
 err_t httpd_post_begin(void *connection, const char *uri, const char *http_request,
                        u16_t http_request_len, int content_len, char *response_uri,
                        u16_t response_uri_len, u8_t *post_auto_wnd)

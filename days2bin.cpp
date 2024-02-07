@@ -27,12 +27,19 @@ int main()
     gpio_set_dir(stay_powered_on_PIN, GPIO_OUT);
     gpio_put(stay_powered_on_PIN, 1);
 
-    SimpleDS3231 rtc(DS3231_SDA_PIN, DS3231_SCL_PIN);
-    stdio_init_all();
-    glowbit_init();
 
-     int result = access_point();
-     printf("access_point result: %d\n", result);
+
+
+    
+    stdio_init_all();
+
+    for (int i=0;i<5;i++){
+        sleep_ms(500);
+        printf("Starting ...\n");
+    }
+ 
+    SimpleDS3231 rtc(DS3231_SDA_PIN, DS3231_SCL_PIN);
+    glowbit_init();
 
     // for debugging and development only
     // make_test_data();
@@ -49,6 +56,9 @@ int main()
     //rtc.set_date(17,1,2024);
 
     printf("\r%s -- %s -- %dC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp());
+
+     int result = access_point();
+     printf("access_point result: %d\n", result); // shouldn't get here as access_point is infinite loop
 
     int dtc[NUM_BIN_KINDS];
     getDaysToCollection(dtc, rtc.get_year(), rtc.get_mon(), rtc.get_day());

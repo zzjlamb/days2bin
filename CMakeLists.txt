@@ -7,11 +7,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Initialise pico_sdk from installed location
 # (note this can come from environment, CMake cache etc)
-set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
+
+if(CMAKE_HOST_APPLE)
+#set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
+else()
+ set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
+endif()
 
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
-set(PICO_DEOPTIMIZED_DEBUG 0)
+set(PICO_DEOPTIMIZED_DEBUG 1)
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
@@ -56,9 +61,6 @@ add_executable(days2bin
       access_point/ssi.c
       access_point/cgi.c
       )
-
-#add_subdirectory(peripherals)
-#add_subdirectory(access_point)
 
 pico_set_linker_script(days2bin ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
 

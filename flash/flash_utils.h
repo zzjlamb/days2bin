@@ -25,12 +25,7 @@ struct Bin_Info {
     uint8_t yy;         // year 00-99
 
     uint8_t interval;   // Collection interval in days
-};
-
-inline uint8_t *getAddressPersistent() {
-extern uint8_t ADDR_PERSISTENT[];
-    return ADDR_PERSISTENT;
-}
+} ;
 
 // Populate the binsData array with some test settings
 void make_test_data();      // For development and debugging only

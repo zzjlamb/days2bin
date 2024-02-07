@@ -13,7 +13,16 @@ Our target sector is 4k from xb_offset +
 #include "time.h"
 #include <math.h>
 
+// Compile variable set by custom linker script
+// Points to a 4k block of memory reserved for persistent data
+// i.e. the bin collection date and frequency info
+extern char ADDR_PERSISTENT;
+
 struct Bin_Info binsData[NUM_BIN_KINDS+1] = {};
+
+void * getAddressPersistent() {
+    return  &ADDR_PERSISTENT;
+}
 
 // Populate the binsData array with some test settings
 void make_test_data()
@@ -45,7 +54,7 @@ void write_flash()
         buf[i] = binsDataPtr[i];
     }
 
-    uint8_t *ap = (uint8_t *)getAddressPersistent();
+    uint8_t *ap = &ADDR_PERSISTENT;
     uint32_t xb = XIP_BASE;
     uint32_t xb_offset = (uint32_t)ap - xb;
 
@@ -78,10 +87,10 @@ void write_flash()
     printf("\n\n");
 }
 
-struct Bin_Info *read_flash()
+struct Bin_Info * read_flash()
 {
-    struct Bin_Info *ap = (struct Bin_Info *)getAddressPersistent();
-    return ap;
+    void * ap = &ADDR_PERSISTENT;
+    return  ap;
 }
 
 // fills an array of int - one for each bin type

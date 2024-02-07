@@ -13,8 +13,8 @@ const char * cgi_led_handler(int iIndex, int iNumParams, char *pcParam[], char *
 // Fill this with all of the CGI requests and their respective handlers
 static const tCGI cgi_handlers[] = {
     {
-        // Html request for "/led.cgi" triggers cgi_handler
-        "/led.cgi", cgi_led_handler
+        // Html request for "/update.cgi" triggers cgi_handler
+        "/update.cgi", cgi_led_handler
     },
 };
 

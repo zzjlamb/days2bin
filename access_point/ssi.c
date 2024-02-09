@@ -2,11 +2,15 @@
 #include "pico/cyw43_arch.h"
 #include "lwipopts.h"
 #include "ssi.h"
-// #include "cgi.h"
 #include "lwip/apps/fs.h"
 #include "lwip/def.h"
 #include "lwip/mem.h"
 #include "lwip/apps/fs.h"
+
+#include "ds3231.h"
+#include "flash/flash_utils.h"
+
+extern ds3231_t ds3231;
 
 // max length of the tags defaults to be 8 chars
 // LWIP_HTTPD_MAX_TAG_NAME_LEN
@@ -21,10 +25,39 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
     switch (iIndex)
     {
     case 0: /* dttime */
-        printed = snprintf(pcInsert, iInsertLen, "Date Time Placeholder");
+        // Return DS3231 time and date
+        ds3231_data_t ds3231_data = {};
+        ds3231_read_current_time(&ds3231, &ds3231_data);
+        printed = snprintf(pcInsert, iInsertLen, "%02u:%02u %02u/%02u/20%02u\n",
+                           ds3231_data.hours, ds3231_data.minutes,
+                           ds3231_data.date, ds3231_data.month, ds3231_data.year);
         break;
     case 1: /*binData*/
-        printed = snprintf(pcInsert, iInsertLen, "binData placeholder");
+
+        // Bin_Info is 4 x uint8_t packed, so should be safe to cast to array of uint_8
+        uint8_t *bi = (uint8_t *)read_flash();
+
+        // Check for magic number and generate 1 week for waste, 0 for others, and 000000 for dates
+        //  to advise javascript on web page to make new dates
+        //
+        if (bi[NUM_BIN_KINDS * sizeof(Bin_Info)] == MAGIC_NUMBER)
+        {
+            // Encode bin data to iiyymmdd x3 format for web page java function
+            int binDataLen = sizeof(Bin_Info) * NUM_BIN_KINDS; // Should be 12 i.e. less than expected iInsertLen of 192
+
+            for (int i = 0; i < binDataLen; i++)
+            {
+                pcInsert[i * 2] = (bi[i] / 10) + '0';
+                pcInsert[i * 2 + 1] = (bi[i] % 10) + '0';
+            }
+            pcInsert[binDataLen * 2 + 2] = 0;
+            printed = binDataLen * 2;
+        }
+        else // This appears to be the first run. No data in flash yet.
+        {
+            printed = snprintf(pcInsert, iInsertLen, "010000000000000000000000");
+        }
+
         break;
     default: /* unknown tag */
         printed = 0;
@@ -103,13 +136,6 @@ int fs_open_custom(struct fs_file *file, const char *name)
     }
 }
 
-/*
-int fs_read_custom(struct fs_file *file, char *buffer, int count) {
-printf("fs_read_custom. Count: %d\n",count);
-return 0;
-}
-*/
-
 void fs_close_custom(struct fs_file *file)
 {
     if (file && file->pextension)
@@ -148,7 +174,7 @@ err_t httpd_post_receive_data(void *connection, struct pbuf *p)
     {
         printf("pfuf payload: ");
         char *data = p->payload;
-        int i=0;
+        int i = 0;
         while (i < p->len)
         {
             printf("%c", data[i]);

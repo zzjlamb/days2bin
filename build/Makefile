@@ -207,6 +207,19 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named pico_ds3231
+
+# Build rule for target.
+pico_ds3231: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_ds3231
+.PHONY : pico_ds3231
+
+# fast build rule for target.
+pico_ds3231/fast:
+	$(MAKE) $(MAKESILENT) -f peripherals/ds3231/CMakeFiles/pico_ds3231.dir/build.make peripherals/ds3231/CMakeFiles/pico_ds3231.dir/build
+.PHONY : pico_ds3231/fast
+
 Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -3895,29 +3908,29 @@ access_point/ssi.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/access_point/ssi.c.s
 .PHONY : access_point/ssi.c.s
 
-days2bin.obj: days2bin.cpp.obj
+days2bin.obj: days2bin.c.obj
 .PHONY : days2bin.obj
 
 # target to build an object file
-days2bin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.obj
-.PHONY : days2bin.cpp.obj
+days2bin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.c.obj
+.PHONY : days2bin.c.obj
 
-days2bin.i: days2bin.cpp.i
+days2bin.i: days2bin.c.i
 .PHONY : days2bin.i
 
 # target to preprocess a source file
-days2bin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.i
-.PHONY : days2bin.cpp.i
+days2bin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.c.i
+.PHONY : days2bin.c.i
 
-days2bin.s: days2bin.cpp.s
+days2bin.s: days2bin.c.s
 .PHONY : days2bin.s
 
 # target to generate assembly for a file
-days2bin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.cpp.s
-.PHONY : days2bin.cpp.s
+days2bin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/days2bin.c.s
+.PHONY : days2bin.c.s
 
 flash/flash_utils.obj: flash/flash_utils.c.obj
 .PHONY : flash/flash_utils.obj
@@ -3943,77 +3956,29 @@ flash/flash_utils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/flash/flash_utils.c.s
 .PHONY : flash/flash_utils.c.s
 
-peripherals/SimpleDS3231_new.obj: peripherals/SimpleDS3231_new.cpp.obj
-.PHONY : peripherals/SimpleDS3231_new.obj
-
-# target to build an object file
-peripherals/SimpleDS3231_new.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj
-.PHONY : peripherals/SimpleDS3231_new.cpp.obj
-
-peripherals/SimpleDS3231_new.i: peripherals/SimpleDS3231_new.cpp.i
-.PHONY : peripherals/SimpleDS3231_new.i
-
-# target to preprocess a source file
-peripherals/SimpleDS3231_new.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.i
-.PHONY : peripherals/SimpleDS3231_new.cpp.i
-
-peripherals/SimpleDS3231_new.s: peripherals/SimpleDS3231_new.cpp.s
-.PHONY : peripherals/SimpleDS3231_new.s
-
-# target to generate assembly for a file
-peripherals/SimpleDS3231_new.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.s
-.PHONY : peripherals/SimpleDS3231_new.cpp.s
-
-peripherals/busscan.obj: peripherals/busscan.c.obj
-.PHONY : peripherals/busscan.obj
-
-# target to build an object file
-peripherals/busscan.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.obj
-.PHONY : peripherals/busscan.c.obj
-
-peripherals/busscan.i: peripherals/busscan.c.i
-.PHONY : peripherals/busscan.i
-
-# target to preprocess a source file
-peripherals/busscan.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.i
-.PHONY : peripherals/busscan.c.i
-
-peripherals/busscan.s: peripherals/busscan.c.s
-.PHONY : peripherals/busscan.s
-
-# target to generate assembly for a file
-peripherals/busscan.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/busscan.c.s
-.PHONY : peripherals/busscan.c.s
-
-peripherals/glowbit.obj: peripherals/glowbit.cpp.obj
+peripherals/glowbit.obj: peripherals/glowbit.c.obj
 .PHONY : peripherals/glowbit.obj
 
 # target to build an object file
-peripherals/glowbit.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj
-.PHONY : peripherals/glowbit.cpp.obj
+peripherals/glowbit.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj
+.PHONY : peripherals/glowbit.c.obj
 
-peripherals/glowbit.i: peripherals/glowbit.cpp.i
+peripherals/glowbit.i: peripherals/glowbit.c.i
 .PHONY : peripherals/glowbit.i
 
 # target to preprocess a source file
-peripherals/glowbit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.i
-.PHONY : peripherals/glowbit.cpp.i
+peripherals/glowbit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.c.i
+.PHONY : peripherals/glowbit.c.i
 
-peripherals/glowbit.s: peripherals/glowbit.cpp.s
+peripherals/glowbit.s: peripherals/glowbit.c.s
 .PHONY : peripherals/glowbit.s
 
 # target to generate assembly for a file
-peripherals/glowbit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.s
-.PHONY : peripherals/glowbit.cpp.s
+peripherals/glowbit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/days2bin.dir/build.make CMakeFiles/days2bin.dir/peripherals/glowbit.c.s
+.PHONY : peripherals/glowbit.c.s
 
 # Help Target
 help:
@@ -4030,6 +3995,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... days2bin"
+	@echo "... pico_ds3231"
 	@echo "... Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -4497,12 +4463,6 @@ help:
 	@echo "... flash/flash_utils.obj"
 	@echo "... flash/flash_utils.i"
 	@echo "... flash/flash_utils.s"
-	@echo "... peripherals/SimpleDS3231_new.obj"
-	@echo "... peripherals/SimpleDS3231_new.i"
-	@echo "... peripherals/SimpleDS3231_new.s"
-	@echo "... peripherals/busscan.obj"
-	@echo "... peripherals/busscan.i"
-	@echo "... peripherals/busscan.s"
 	@echo "... peripherals/glowbit.obj"
 	@echo "... peripherals/glowbit.i"
 	@echo "... peripherals/glowbit.s"

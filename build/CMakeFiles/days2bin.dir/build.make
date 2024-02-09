@@ -69,19 +69,19 @@ include CMakeFiles/days2bin.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/days2bin.dir/flags.make
 
-CMakeFiles/days2bin.dir/days2bin.cpp.obj: CMakeFiles/days2bin.dir/flags.make
-CMakeFiles/days2bin.dir/days2bin.cpp.obj: /Users/john/pico/days2bin/days2bin.cpp
-CMakeFiles/days2bin.dir/days2bin.cpp.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/days2bin.dir/days2bin.cpp.obj"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/days2bin.dir/days2bin.cpp.obj -MF CMakeFiles/days2bin.dir/days2bin.cpp.obj.d -o CMakeFiles/days2bin.dir/days2bin.cpp.obj -c /Users/john/pico/days2bin/days2bin.cpp
+CMakeFiles/days2bin.dir/days2bin.c.obj: CMakeFiles/days2bin.dir/flags.make
+CMakeFiles/days2bin.dir/days2bin.c.obj: /Users/john/pico/days2bin/days2bin.c
+CMakeFiles/days2bin.dir/days2bin.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/days2bin.dir/days2bin.c.obj"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/days2bin.c.obj -MF CMakeFiles/days2bin.dir/days2bin.c.obj.d -o CMakeFiles/days2bin.dir/days2bin.c.obj -c /Users/john/pico/days2bin/days2bin.c
 
-CMakeFiles/days2bin.dir/days2bin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/days2bin.dir/days2bin.cpp.i"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/pico/days2bin/days2bin.cpp > CMakeFiles/days2bin.dir/days2bin.cpp.i
+CMakeFiles/days2bin.dir/days2bin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/days2bin.dir/days2bin.c.i"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/john/pico/days2bin/days2bin.c > CMakeFiles/days2bin.dir/days2bin.c.i
 
-CMakeFiles/days2bin.dir/days2bin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/days2bin.dir/days2bin.cpp.s"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/pico/days2bin/days2bin.cpp -o CMakeFiles/days2bin.dir/days2bin.cpp.s
+CMakeFiles/days2bin.dir/days2bin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/days2bin.dir/days2bin.c.s"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john/pico/days2bin/days2bin.c -o CMakeFiles/days2bin.dir/days2bin.c.s
 
 CMakeFiles/days2bin.dir/flash/flash_utils.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/flash/flash_utils.c.obj: /Users/john/pico/days2bin/flash/flash_utils.c
@@ -97,52 +97,24 @@ CMakeFiles/days2bin.dir/flash/flash_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/days2bin.dir/flash/flash_utils.c.s"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john/pico/days2bin/flash/flash_utils.c -o CMakeFiles/days2bin.dir/flash/flash_utils.c.s
 
-CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj: CMakeFiles/days2bin.dir/flags.make
-CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj: /Users/john/pico/days2bin/peripherals/SimpleDS3231_new.cpp
-CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj -MF CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj.d -o CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj -c /Users/john/pico/days2bin/peripherals/SimpleDS3231_new.cpp
+CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj: CMakeFiles/days2bin.dir/flags.make
+CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj: /Users/john/pico/days2bin/peripherals/glowbit.c
+CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj -MF CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj.d -o CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj -c /Users/john/pico/days2bin/peripherals/glowbit.c
 
-CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.i"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/pico/days2bin/peripherals/SimpleDS3231_new.cpp > CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.i
+CMakeFiles/days2bin.dir/peripherals/glowbit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/days2bin.dir/peripherals/glowbit.c.i"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/john/pico/days2bin/peripherals/glowbit.c > CMakeFiles/days2bin.dir/peripherals/glowbit.c.i
 
-CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.s"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/pico/days2bin/peripherals/SimpleDS3231_new.cpp -o CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.s
-
-CMakeFiles/days2bin.dir/peripherals/busscan.c.obj: CMakeFiles/days2bin.dir/flags.make
-CMakeFiles/days2bin.dir/peripherals/busscan.c.obj: /Users/john/pico/days2bin/peripherals/busscan.c
-CMakeFiles/days2bin.dir/peripherals/busscan.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/days2bin.dir/peripherals/busscan.c.obj"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/peripherals/busscan.c.obj -MF CMakeFiles/days2bin.dir/peripherals/busscan.c.obj.d -o CMakeFiles/days2bin.dir/peripherals/busscan.c.obj -c /Users/john/pico/days2bin/peripherals/busscan.c
-
-CMakeFiles/days2bin.dir/peripherals/busscan.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/days2bin.dir/peripherals/busscan.c.i"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/john/pico/days2bin/peripherals/busscan.c > CMakeFiles/days2bin.dir/peripherals/busscan.c.i
-
-CMakeFiles/days2bin.dir/peripherals/busscan.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/days2bin.dir/peripherals/busscan.c.s"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john/pico/days2bin/peripherals/busscan.c -o CMakeFiles/days2bin.dir/peripherals/busscan.c.s
-
-CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj: CMakeFiles/days2bin.dir/flags.make
-CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj: /Users/john/pico/days2bin/peripherals/glowbit.cpp
-CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj -MF CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj.d -o CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj -c /Users/john/pico/days2bin/peripherals/glowbit.cpp
-
-CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.i"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/john/pico/days2bin/peripherals/glowbit.cpp > CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.i
-
-CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.s"
-	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/john/pico/days2bin/peripherals/glowbit.cpp -o CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.s
+CMakeFiles/days2bin.dir/peripherals/glowbit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/days2bin.dir/peripherals/glowbit.c.s"
+	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/john/pico/days2bin/peripherals/glowbit.c -o CMakeFiles/days2bin.dir/peripherals/glowbit.c.s
 
 CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj: /Users/john/pico/days2bin/access_point/picow_access_point.c
 CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj -MF CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj.d -o CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj -c /Users/john/pico/days2bin/access_point/picow_access_point.c
 
 CMakeFiles/days2bin.dir/access_point/picow_access_point.c.i: cmake_force
@@ -156,7 +128,7 @@ CMakeFiles/days2bin.dir/access_point/picow_access_point.c.s: cmake_force
 CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj: /Users/john/pico/days2bin/access_point/dhcpserver/dhcpserver.c
 CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj -MF CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj.d -o CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj -c /Users/john/pico/days2bin/access_point/dhcpserver/dhcpserver.c
 
 CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.i: cmake_force
@@ -170,7 +142,7 @@ CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.s: cmake_force
 CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj: /Users/john/pico/days2bin/access_point/dnsserver/dnsserver.c
 CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj -MF CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj.d -o CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj -c /Users/john/pico/days2bin/access_point/dnsserver/dnsserver.c
 
 CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.i: cmake_force
@@ -184,7 +156,7 @@ CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.s: cmake_force
 CMakeFiles/days2bin.dir/access_point/ssi.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/access_point/ssi.c.obj: /Users/john/pico/days2bin/access_point/ssi.c
 CMakeFiles/days2bin.dir/access_point/ssi.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/days2bin.dir/access_point/ssi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/days2bin.dir/access_point/ssi.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/access_point/ssi.c.obj -MF CMakeFiles/days2bin.dir/access_point/ssi.c.obj.d -o CMakeFiles/days2bin.dir/access_point/ssi.c.obj -c /Users/john/pico/days2bin/access_point/ssi.c
 
 CMakeFiles/days2bin.dir/access_point/ssi.c.i: cmake_force
@@ -198,7 +170,7 @@ CMakeFiles/days2bin.dir/access_point/ssi.c.s: cmake_force
 CMakeFiles/days2bin.dir/access_point/cgi.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/access_point/cgi.c.obj: /Users/john/pico/days2bin/access_point/cgi.c
 CMakeFiles/days2bin.dir/access_point/cgi.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/days2bin.dir/access_point/cgi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/days2bin.dir/access_point/cgi.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/access_point/cgi.c.obj -MF CMakeFiles/days2bin.dir/access_point/cgi.c.obj.d -o CMakeFiles/days2bin.dir/access_point/cgi.c.obj -c /Users/john/pico/days2bin/access_point/cgi.c
 
 CMakeFiles/days2bin.dir/access_point/cgi.c.i: cmake_force
@@ -212,7 +184,7 @@ CMakeFiles/days2bin.dir/access_point/cgi.c.s: cmake_force
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -226,7 +198,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdlib/stdl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -240,7 +212,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/gp
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -254,7 +226,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_platform/pl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -268,7 +240,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_claim/c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -282,7 +254,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_sync/sy
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -295,7 +267,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -309,7 +281,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/irq
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/john/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -323,7 +295,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/sem.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -337,7 +309,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/lock_core.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -351,7 +323,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -365,7 +337,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_sync/critical_s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/john/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -379,7 +351,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/time.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -393,7 +365,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_time/timeout_he
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -407,7 +379,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/t
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/john/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -421,7 +393,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/john/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -435,7 +407,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/john/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/john/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -449,7 +421,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/common/pico_util/queue.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -463,7 +435,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_uart/ua
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -477,7 +449,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_clocks/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -491,7 +463,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pll/pll
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -505,7 +477,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_vreg/vr
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -519,7 +491,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_watchdo
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -532,7 +504,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_xosc/xo
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -546,7 +518,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_divider
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -560,7 +532,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_runtime/run
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -573,7 +545,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_printf/prin
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -587,7 +559,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -600,7 +572,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_bootrom/boo
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -613,7 +585,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_divider/div
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -627,7 +599,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -641,7 +613,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/doub
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -654,7 +626,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -667,7 +639,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_double/doub
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -680,7 +652,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_int64_ops/p
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -694,7 +666,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -708,7 +680,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -721,7 +693,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -735,7 +707,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_float/float
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -748,7 +720,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_malloc/pico
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -761,7 +733,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -775,7 +747,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -789,7 +761,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -803,7 +775,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_li
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -817,7 +789,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio/stdio
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -831,7 +803,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_stdio_uart/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -845,7 +817,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
@@ -859,7 +831,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_n
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -873,7 +845,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_conte
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
@@ -887,7 +859,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -901,7 +873,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_unique_id/u
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -915,7 +887,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_flash/f
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -929,7 +901,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/init.c.s: cma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -943,7 +915,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/def.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -957,7 +929,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/dns.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -971,7 +943,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -985,7 +957,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ip.c.s: cmake
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -999,7 +971,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/mem.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1013,7 +985,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/memp.c.s: cma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1027,7 +999,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/netif.c.s: cm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1041,7 +1013,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s: cma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1055,7 +1027,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/raw.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1069,7 +1041,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/stats.c.s: cm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1083,7 +1055,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/sys.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1097,7 +1069,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp.c.s: cm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1111,7 +1083,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1125,7 +1097,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1139,7 +1111,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1153,7 +1125,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1167,7 +1139,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1181,7 +1153,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1195,7 +1167,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/udp.c.s: cmak
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1209,7 +1181,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1223,7 +1195,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1237,7 +1209,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1251,7 +1223,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1265,7 +1237,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1279,7 +1251,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1293,7 +1265,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1307,7 +1279,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1321,7 +1293,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1335,7 +1307,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1349,7 +1321,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1363,7 +1335,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1377,7 +1349,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1391,7 +1363,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1405,7 +1377,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1419,7 +1391,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1433,7 +1405,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1447,7 +1419,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1461,7 +1433,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1475,7 +1447,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1489,7 +1461,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/err.c.s: cmake
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1503,7 +1475,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/if_api.c.s: cm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1517,7 +1489,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s: cm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1531,7 +1503,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netdb.c.s: cma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -1545,7 +1517,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -1559,7 +1531,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/sockets.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -1573,7 +1545,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s: cma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -1587,7 +1559,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -1601,7 +1573,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -1615,7 +1587,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -1629,7 +1601,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -1643,7 +1615,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_comm
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -1657,7 +1629,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -1671,7 +1643,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -1685,7 +1657,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s: c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -1699,7 +1671,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -1713,7 +1685,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -1727,7 +1699,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -1741,7 +1713,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -1755,7 +1727,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -1769,7 +1741,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -1783,7 +1755,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -1797,7 +1769,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -1811,7 +1783,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -1825,7 +1797,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -1839,7 +1811,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -1853,7 +1825,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -1867,7 +1839,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -1881,7 +1853,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -1895,7 +1867,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -1909,7 +1881,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/multilin
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -1923,7 +1895,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -1937,7 +1909,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -1951,7 +1923,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -1965,7 +1937,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -1979,7 +1951,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -1993,7 +1965,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2007,7 +1979,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2021,7 +1993,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2035,7 +2007,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2049,7 +2021,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2063,7 +2035,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2077,7 +2049,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2091,7 +2063,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2105,7 +2077,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -2119,7 +2091,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -2133,7 +2105,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2147,7 +2119,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -2161,7 +2133,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -2175,7 +2147,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -2189,7 +2161,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -2203,7 +2175,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stat
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -2217,7 +2189,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -2231,7 +2203,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -2245,7 +2217,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -2259,7 +2231,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -2273,7 +2245,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_pio/pio
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -2287,7 +2259,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_dma/dma
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -2301,7 +2273,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/hardware_excepti
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -2315,7 +2287,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_drive
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj: /Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.obj -c /Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_poll.c.i: cmake_force
@@ -2329,7 +2301,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_async_conte
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i: cmake_force
@@ -2343,7 +2315,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/altcp_pr
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i: cmake_force
@@ -2357,7 +2329,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s: 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i: cmake_force
@@ -2371,7 +2343,7 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_cli
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/days2bin.dir/flags.make
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/days2bin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
 	/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -MF CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d -o CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -c /Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c
 
 CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i: cmake_force
@@ -2384,11 +2356,9 @@ CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.
 
 # Object files for target days2bin
 days2bin_OBJECTS = \
-"CMakeFiles/days2bin.dir/days2bin.cpp.obj" \
+"CMakeFiles/days2bin.dir/days2bin.c.obj" \
 "CMakeFiles/days2bin.dir/flash/flash_utils.c.obj" \
-"CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj" \
-"CMakeFiles/days2bin.dir/peripherals/busscan.c.obj" \
-"CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj" \
+"CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj" \
 "CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj" \
 "CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj" \
 "CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj" \
@@ -2554,11 +2524,9 @@ days2bin_OBJECTS = \
 # External object files for target days2bin
 days2bin_EXTERNAL_OBJECTS =
 
-days2bin.elf: CMakeFiles/days2bin.dir/days2bin.cpp.obj
+days2bin.elf: CMakeFiles/days2bin.dir/days2bin.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/flash/flash_utils.c.obj
-days2bin.elf: CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj
-days2bin.elf: CMakeFiles/days2bin.dir/peripherals/busscan.c.obj
-days2bin.elf: CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj
+days2bin.elf: CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/access_point/dhcpserver/dhcpserver.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj
@@ -2721,10 +2689,11 @@ days2bin.elf: CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps
 days2bin.elf: CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 days2bin.elf: CMakeFiles/days2bin.dir/build.make
+days2bin.elf: peripherals/ds3231/libpico_ds3231.a
 days2bin.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 days2bin.elf: /Users/john/pico/days2bin/flash/memmap_custom.ld
 days2bin.elf: CMakeFiles/days2bin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Linking CXX executable days2bin.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/john/pico/days2bin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Linking CXX executable days2bin.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/days2bin.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/john/pico/days2bin/build/days2bin.elf days2bin.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/john/pico/days2bin/build/days2bin.elf days2bin.bin

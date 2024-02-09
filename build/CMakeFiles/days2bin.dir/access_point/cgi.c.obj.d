@@ -1,5 +1,23 @@
 CMakeFiles/days2bin.dir/access_point/cgi.c.obj: \
  /Users/john/pico/days2bin/access_point/cgi.c \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -8,18 +26,7 @@ CMakeFiles/days2bin.dir/access_point/cgi.c.obj: \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/arch.h \
  /Users/john/pico/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h \
@@ -32,11 +39,7 @@ CMakeFiles/days2bin.dir/access_point/cgi.c.obj: \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/time.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h \
- /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h \
  /Users/john/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/john/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -73,4 +76,25 @@ CMakeFiles/days2bin.dir/access_point/cgi.c.obj: \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/err.h \
  /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /Users/john/pico/days2bin/access_point/cgi.h
+ /Users/john/pico/days2bin/peripherals/ds3231/ds3231.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/john/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /Users/john/pico/days2bin/access_point/cgi.h \
+ /Users/john/pico/days2bin/flash/flash_utils.h

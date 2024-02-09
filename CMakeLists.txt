@@ -5,14 +5,7 @@ cmake_minimum_required(VERSION 3.13)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-# Initialise pico_sdk from installed location
-# (note this can come from environment, CMake cache etc)
-
-if(CMAKE_HOST_APPLE)
-#set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
-else()
- set(PICO_SDK_PATH "/home/john/pico/pico-sdk")
-endif()
+ set(PICO_SDK_PATH "~/pico/pico-sdk")
 
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
@@ -50,17 +43,17 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(days2bin 
-      days2bin.cpp 
-      flash/flash_utils.c 
-      peripherals/SimpleDS3231_new.cpp 
-      peripherals/busscan.c
-      peripherals/glowbit.cpp
+      days2bin.c 
+      flash/flash_utils.c  
+      peripherals/glowbit.c
       access_point/picow_access_point.c
       access_point/dhcpserver/dhcpserver.c
       access_point/dnsserver/dnsserver.c
       access_point/ssi.c
       access_point/cgi.c
       )
+
+add_subdirectory(peripherals)
 
 pico_set_linker_script(days2bin ${CMAKE_SOURCE_DIR}/flash/memmap_custom.ld)
 
@@ -89,6 +82,7 @@ target_link_libraries(days2bin
         #pico_cyw43_arch_none
         pico_cyw43_arch_lwip_poll
         pico_lwip_http
+        pico_ds3231
         )
 
 pico_add_extra_outputs(days2bin)

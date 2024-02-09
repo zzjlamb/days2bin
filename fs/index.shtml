@@ -88,10 +88,10 @@
   /* Populate inputs from ssi supplied binData variable */
   function setFormElements() {
     const form = document.getElementById('binform');
-    binData = '<!--binData-->';
+    binData = '<!--#binData-->'
     if (binData[0] == "<")
       /* Here if no ssi, ie we are debugging  */
-      binData = "124012522401250000000";
+      binData = "012401250224012500000000";
     const binObj = makeBinObject(binData);
     binObjKeys = Object.keys(binObj);
     binObjKeys.forEach((boKey) => {
@@ -130,17 +130,16 @@
   }
 
   function makeBinObject(b) {
-    /* NB interval i is in weeks  */
-    /* iyymmddiyymmddiyymmdd      */
+    /* iiyymmddiiyymmddiiyymmdd      */
     const bd = {};
     const d = "-";
     const t = "20";
-    bd["wasteFreq"]=b.slice(0, 1);
-    bd["wasteDate"]=makeDateValid(t + b.slice(1, 3) + d + b.slice(3, 5) + d + b.slice(5, 7));
-    bd["recycleFreq"]=b.slice(7, 8);
-    bd["recycleDate"]=makeDateValid(t + b.slice(8, 10) + d + b.slice(10, 12) + d + b.slice(12, 14));
-    bd["greenFreq"]=b.slice(14, 15);
-    bd["greenDate"]=makeDateValid(t + b.slice(15, 17) + d + b.slice(17, 19) + d + b.slice(19, 20));
+    bd["wasteFreq"]=b.slice(1, 2);
+    bd["wasteDate"]=makeDateValid(t + b.slice(2, 4) + d + b.slice(4, 6) + d + b.slice(6, 8));
+    bd["recycleFreq"]=b.slice(9, 10);
+    bd["recycleDate"]=makeDateValid(t + b.slice(10, 12) + d + b.slice(12, 14) + d + b.slice(14, 16));
+    bd["greenFreq"]=b.slice(17, 18);
+    bd["greenDate"]=makeDateValid(t + b.slice(18, 20) + d + b.slice(20, 22) + d + b.slice(22, 24));
     return bd;
   }
 
@@ -149,11 +148,13 @@
   }
   /* Inverse of makeBinObject */
   function makeBinDataString() {
-    s = "";
-    s +=document.getElementById("wasteFreq").value;  /* possible values 0,1,2 ie 1 digit */
+    s = "0";
+    s +=document.getElementById("wasteFreq").value;  /* possible values 0,1,2 ie 1 digit, but pad to 2 chars with leading 0 */
     s +=encodeDateToYYMMDD(document.getElementById("wasteDate").value);
+    s += "0";
     s +=document.getElementById("recycleFreq").value;
     s +=encodeDateToYYMMDD(document.getElementById("recycleDate").value);
+    s += "0";
     s +=document.getElementById("greenFreq").value;
     s +=encodeDateToYYMMDD(document.getElementById("greenDate").value);
     return s;

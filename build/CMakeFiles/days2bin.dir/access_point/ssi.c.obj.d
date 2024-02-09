@@ -121,4 +121,10 @@ CMakeFiles/days2bin.dir/access_point/ssi.c.obj: \
  /Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_poll.h \
  /Users/john/pico/days2bin/access_point/lwipopts.h \
  /Users/john/pico/days2bin/access_point/ssi.h \
- /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/apps/fs.h
+ /Users/john/pico/pico-sdk/lib/lwip/src/include/lwip/apps/fs.h \
+ /Users/john/pico/days2bin/peripherals/ds3231/ds3231.h \
+ /Users/john/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/john/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/john/pico/days2bin/flash/flash_utils.h

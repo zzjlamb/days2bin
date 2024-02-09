@@ -18,7 +18,7 @@ Our target sector is 4k from xb_offset +
 // i.e. the bin collection date and frequency info
 extern char ADDR_PERSISTENT;
 
-struct Bin_Info binsData[NUM_BIN_KINDS+1] = {};
+Bin_Info binsData[NUM_BIN_KINDS+1] = {};
 
 void * getAddressPersistent() {
     return  &ADDR_PERSISTENT;
@@ -31,12 +31,12 @@ void make_test_data()
     binsData[RED_BIN].dd = 11;
     binsData[RED_BIN].mm = 1;
     binsData[RED_BIN].yy = 24;
-    binsData[RED_BIN].interval = 7;
+    binsData[RED_BIN].interval = 1;
 
     binsData[YELLOW_BIN].dd = 11;
     binsData[YELLOW_BIN].mm = 1;
     binsData[YELLOW_BIN].yy = 24;
-    binsData[YELLOW_BIN].interval = 14;
+    binsData[YELLOW_BIN].interval = 2;
 
     binsData[GREEN_BIN].interval = 0;
     
@@ -87,7 +87,7 @@ void write_flash()
     printf("\n\n");
 }
 
-struct Bin_Info * read_flash()
+Bin_Info * read_flash()
 {
     void * ap = &ADDR_PERSISTENT;
     return  ap;
@@ -95,14 +95,14 @@ struct Bin_Info * read_flash()
 
 // fills an array of int - one for each bin type
 // -1 means no collection for that bin colour
-void getDaysToCollection(int dayArray[NUM_BIN_KINDS], int_fast32_t clock_y, uint8_t clock_m, uint8_t clock_d)
+void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_century, uint8_t clock_yy, uint8_t clock_mm, uint8_t clock_dd)
 {
-    printf("Clock: year, month, day %d, %d, %d \n",clock_y,clock_m,clock_d);
+    printf("Clock: century, year, month, day %d, %d, %d, %d \n", clock_century, clock_yy,clock_mm,clock_dd);
     // TODO #### validate rtc date values
     struct tm clocktime={};
-    clocktime.tm_mday = clock_d;
-    clocktime.tm_mon = clock_m-1;
-    clocktime.tm_year = clock_y-1900;
+    clocktime.tm_mday = clock_dd;
+    clocktime.tm_mon = clock_mm - 1;
+    clocktime.tm_year = (clock_century * 100) + clock_yy;
     time_t clocktime_tm = mktime(&clocktime);
 
     struct Bin_Info *bd = read_flash();
@@ -121,7 +121,7 @@ void getDaysToCollection(int dayArray[NUM_BIN_KINDS], int_fast32_t clock_y, uint
             double dd = difftime(clocktime_tm, bintime_tm);
             double ddDays = dd/(3600*24);
             int btInt = round(ddDays);
-            int intvl = bd[bt].interval;
+            int intvl = bd[bt].interval*7;
             int mod_intvl = btInt % intvl;
             dayArray[bt] = (mod_intvl>=0) ? intvl - mod_intvl : -mod_intvl;
             printf("dayArray[%d]:%d\n",bt,dayArray[bt]);

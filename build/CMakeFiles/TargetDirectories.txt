@@ -167,3 +167,8 @@
 /Users/john/pico/days2bin/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /Users/john/pico/days2bin/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/john/pico/days2bin/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+/Users/john/pico/days2bin/build/peripherals/CMakeFiles/edit_cache.dir
+/Users/john/pico/days2bin/build/peripherals/CMakeFiles/rebuild_cache.dir
+/Users/john/pico/days2bin/build/peripherals/ds3231/CMakeFiles/pico_ds3231.dir
+/Users/john/pico/days2bin/build/peripherals/ds3231/CMakeFiles/edit_cache.dir
+/Users/john/pico/days2bin/build/peripherals/ds3231/CMakeFiles/rebuild_cache.dir

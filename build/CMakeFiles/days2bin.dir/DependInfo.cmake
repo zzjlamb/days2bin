@@ -133,6 +133,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/john/pico/pico-sdk/src/rp2_common/hardware_exception/include"
   "/Users/john/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
+  "/Users/john/pico/days2bin/peripherals/ds3231"
   )
 
 # The set of dependency files which are needed:
@@ -286,12 +287,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/john/pico/days2bin/access_point/dnsserver/dnsserver.c" "CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj" "gcc" "CMakeFiles/days2bin.dir/access_point/dnsserver/dnsserver.c.obj.d"
   "/Users/john/pico/days2bin/access_point/picow_access_point.c" "CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj" "gcc" "CMakeFiles/days2bin.dir/access_point/picow_access_point.c.obj.d"
   "/Users/john/pico/days2bin/access_point/ssi.c" "CMakeFiles/days2bin.dir/access_point/ssi.c.obj" "gcc" "CMakeFiles/days2bin.dir/access_point/ssi.c.obj.d"
+  "/Users/john/pico/days2bin/days2bin.c" "CMakeFiles/days2bin.dir/days2bin.c.obj" "gcc" "CMakeFiles/days2bin.dir/days2bin.c.obj.d"
   "/Users/john/pico/days2bin/flash/flash_utils.c" "CMakeFiles/days2bin.dir/flash/flash_utils.c.obj" "gcc" "CMakeFiles/days2bin.dir/flash/flash_utils.c.obj.d"
-  "/Users/john/pico/days2bin/peripherals/busscan.c" "CMakeFiles/days2bin.dir/peripherals/busscan.c.obj" "gcc" "CMakeFiles/days2bin.dir/peripherals/busscan.c.obj.d"
+  "/Users/john/pico/days2bin/peripherals/glowbit.c" "CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj" "gcc" "CMakeFiles/days2bin.dir/peripherals/glowbit.c.obj.d"
   "/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/days2bin.dir/Users/john/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
-  "/Users/john/pico/days2bin/days2bin.cpp" "CMakeFiles/days2bin.dir/days2bin.cpp.obj" "gcc" "CMakeFiles/days2bin.dir/days2bin.cpp.obj.d"
-  "/Users/john/pico/days2bin/peripherals/SimpleDS3231_new.cpp" "CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj" "gcc" "CMakeFiles/days2bin.dir/peripherals/SimpleDS3231_new.cpp.obj.d"
-  "/Users/john/pico/days2bin/peripherals/glowbit.cpp" "CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj" "gcc" "CMakeFiles/days2bin.dir/peripherals/glowbit.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

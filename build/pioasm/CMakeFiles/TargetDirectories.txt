@@ -1,3 +1,0 @@
-/Users/john/pico/days2bin/build/pioasm/CMakeFiles/pioasm.dir
-/Users/john/pico/days2bin/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/john/pico/days2bin/build/pioasm/CMakeFiles/rebuild_cache.dir

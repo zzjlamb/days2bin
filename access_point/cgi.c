@@ -6,6 +6,7 @@
 
 extern ds3231_t ds3231;
 extern Bin_Info binsData[];
+extern bool powerDownAtNextPoll;
 
 uint8_t char2ToByte(char *twoChars, int firstCharOffset)
 {
@@ -55,6 +56,10 @@ const char *cgi_settings_handler(int iIndex, int iNumParams, char *pcParam[], ch
         printf("Bin type: %d Interval %d Year %d Month %d Day %d\n", k, binsData[k].interval, binsData[k].yy, binsData[k].mm, binsData[k].dd);
     }
     write_flash();
+
+    // Power down at next poll
+    powerDownAtNextPoll = true;
+
     // Send the index page back to the user
     return "/settingssaved.html";
 }
@@ -62,8 +67,8 @@ const char *cgi_settings_handler(int iIndex, int iNumParams, char *pcParam[], ch
 // tCGI Struct
 // Fill this with all of the CGI requests and their respective handlers
 static const tCGI cgi_handlers[] = {
-    {// Html request for "/update.cgi" triggers cgi_handler
-     "/update.cgi", cgi_settings_handler},
+    // Html request for "/update.cgi" triggers cgi_handler
+    { "/update.cgi", cgi_settings_handler},
 };
 
 void cgi_init(void)

@@ -16,8 +16,6 @@
 
 uint32_t display_buffer[NUM_ROWS][NUM_COLUMNS];
 
-
-
 static inline void put_pixel(uint32_t pixel_grb)
 {
     pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
@@ -48,20 +46,20 @@ void pattern_black()
             display_buffer[i][j] = 0;
 }
 
-void show()
+void glowbit_show()
 {
     for (int i = 0; i < NUM_ROWS; ++i)
         for (int j = 0; j < NUM_COLUMNS; j++)
             put_pixel(display_buffer[i][j]);
 }
 
-void clearScreen()
+void glowbit_clearScreen()
 {
     pattern_black();
-    show();
+    glowbit_show();
 }
 
-void drawChar(char ch, uint8_t r, uint8_t g, uint8_t b)
+void glowbit_drawChar(char ch, uint32_t colour)
 {
     if (ch > 127)
         ch = '.';
@@ -73,14 +71,14 @@ void drawChar(char ch, uint8_t r, uint8_t g, uint8_t b)
         for (int display_cursorY = 0; display_cursorY < 8; display_cursorY++)
         {
             bool pixel = (column << display_cursorY) & 0b10000000;
-            display_buffer[(7 - display_cursorY) * 8][display_cursorX] = pixel ? urgb_u32(0x40, 0x40, 0x40) : 0;
+            display_buffer[7 - display_cursorY][display_cursorX] = pixel ? colour : 0;
         }
         display_cursorX++;
         display_cursorX %= 8;
     }
 }
 
-void scrollText(char * text, uint8_t r, uint8_t g, uint8_t b)
+void glowbit_scrollText(char * text, uint32_t colour)
 {
     int textLength = strlen(text);
 
@@ -113,9 +111,9 @@ void scrollText(char * text, uint8_t r, uint8_t g, uint8_t b)
         for (int display_cursorY = 0; display_cursorY < 8; display_cursorY++)
         {
             bool pixel = (column << display_cursorY) & 0b10000000;
-            display_buffer[7 - display_cursorY][7] = pixel ? urgb_u32(r, g, b) : 0;
+            display_buffer[7 - display_cursorY][7] = pixel ? colour : 0;
         }
-        show();
+        glowbit_show();
         sleep_ms(100);
     }
 }

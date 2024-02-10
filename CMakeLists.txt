@@ -46,7 +46,8 @@ add_executable(days2bin
       days2bin.c 
       flash/flash_utils.c  
       peripherals/glowbit.c
-      access_point/picow_access_point.c
+      peripherals/power_mgr.c
+      access_point/access_point.c
       access_point/dhcpserver/dhcpserver.c
       access_point/dnsserver/dnsserver.c
       access_point/ssi.c
@@ -83,6 +84,7 @@ target_link_libraries(days2bin
         pico_cyw43_arch_lwip_poll
         pico_lwip_http
         pico_ds3231
+        power_status_adc
         )
 
 pico_add_extra_outputs(days2bin)

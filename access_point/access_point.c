@@ -1,4 +1,6 @@
 /**
+ * Adapted from Pico SDK
+ *
  * Copyright (c) 2022 Raspberry Pi (Trading) Ltd.
  *
  * SPDX-License-Identifier: BSD-3-Clause
@@ -14,6 +16,9 @@
 #include "lwip/apps/httpd.h"
 #include "ssi.h"
 #include "cgi.h"
+#include "access_point.h"
+#include "peripherals/power_mgr.h"
+#include "peripherals/glowbit.h"
 
 #include "dhcpserver.h"
 #include "dnsserver.h"
@@ -28,6 +33,8 @@
 #define LED_TEST "/ledtest"
 #define LED_GPIO 0
 #define HTTP_RESPONSE_REDIRECT "HTTP/1.1 302 Redirect\nLocation: http://%s" LED_TEST "\n\n"
+
+bool powerDownAtNextPoll = false;
 
 int access_point()
 {
@@ -59,7 +66,10 @@ int access_point()
     ssi_init();
     cgi_init();
 
-    while (1)
+    // Set a future expiry time
+    absolute_time_t gameOverTime = make_timeout_time_ms(ACCESS_POINT_TIMEOUT_MS);
+
+    while ((absolute_time_diff_us(get_absolute_time(), gameOverTime) > 0)&& ! powerDownAtNextPoll)
     {
 
 #if PICO_CYW43_ARCH_POLL
@@ -76,6 +86,7 @@ int access_point()
         sleep_ms(1000);
 #endif
     }
-    // Should never get here
-    return 0;
+    // Here if timeout
+    glowbit_clearScreen();
+    power_mgr_shutDownNow();
 }

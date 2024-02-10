@@ -97,7 +97,6 @@ Bin_Info * read_flash()
 // -1 means no collection for that bin colour
 void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_century, uint8_t clock_yy, uint8_t clock_mm, uint8_t clock_dd)
 {
-    printf("Clock: century, year, month, day %d, %d, %d, %d \n", clock_century, clock_yy,clock_mm,clock_dd);
     // TODO #### validate rtc date values
     struct tm clocktime={};
     clocktime.tm_mday = clock_dd;
@@ -124,7 +123,6 @@ void getDaysToCollection(int dayArray[NUM_BIN_KINDS], uint8_t clock_century, uin
             int intvl = bd[bt].interval*7;
             int mod_intvl = btInt % intvl;
             dayArray[bt] = (mod_intvl>=0) ? intvl - mod_intvl : -mod_intvl;
-            printf("dayArray[%d]:%d\n",bt,dayArray[bt]);
         }
     }
 }

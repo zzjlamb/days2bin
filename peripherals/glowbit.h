@@ -2,12 +2,20 @@
 #define GLOWBIT_H
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 
-void glowbit_init();
-void drawChar(char ch, uint8_t r, uint8_t g, uint8_t b);
-void scrollText(char * text, uint8_t r, uint8_t g, uint8_t b);
+    static uint32_t glowbit_GREEN = 0x00300000;
+    static uint32_t glowbit_RED = 0x00003000;
+    static uint32_t glowbit_BLUE = 0x00000030;
+    static uint32_t glowbit_YELLOW = 0x00000030;
+
+    void glowbit_init();
+    void glowbit_show();
+    void glowbit_clearScreen();
+    void glowbit_drawChar(char ch, uint32_t colour);
+    void glowbit_scrollText(char *text, uint32_t colour);
 
 #ifdef __cplusplus
 }

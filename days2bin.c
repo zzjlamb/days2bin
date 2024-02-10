@@ -15,7 +15,7 @@
 
 #include "peripherals/glowbit.h"
 #include "ds3231.h"
-#include "days2bin.h"
+#include "GPIO_pin_assignments.h"
 #include "access_point.h"
 
 // DS3231 real time clock
@@ -28,6 +28,9 @@ int main()
     gpio_init(stay_powered_on_PIN);
     gpio_set_dir(stay_powered_on_PIN, GPIO_OUT);
     gpio_put(stay_powered_on_PIN, 1);
+
+    gpio_init(PowerOnButtonGPIO);
+    gpio_set_dir(PowerOnButtonGPIO, GPIO_IN);
 
     stdio_init_all();
     sleep_ms(200);
@@ -47,36 +50,34 @@ int main()
 
     glowbit_init();
 
-    const char * days[7] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-
-    /* Read the time registers of DS3231. */
-        ds3231_data_t ds3231_data = {};
-        if(ds3231_read_current_time(&ds3231, &ds3231_data)) {
-            printf("No data received from DS3231\n");
-        } else {
-            printf("%02u:%02u:%02u    %10s    %02u/%02u/20%02u\n", 
-                ds3231_data.hours, ds3231_data.minutes, ds3231_data.seconds, 
-                days[ds3231_data.day - 1], ds3231_data.date, ds3231_data.month, ds3231_data.year);
-        }
-
     // for debugging and development only
-    //make_test_data();
-    //write_flash();
+    // make_test_data();
+    // write_flash();
 
     Bin_Info *bi = read_flash();
+
+    /* Read the time registers of DS3231. */
+    ds3231_data_t ds3231_data = {};
+    if (ds3231_read_current_time(&ds3231, &ds3231_data))
+    {
+        printf("No data received from DS3231\n");
+    }
+    else
+    {
+        printf("%02u:%02u:%02u    %10s    %02u/%02u/20%02u\n",
+               ds3231_data.hours, ds3231_data.minutes, ds3231_data.seconds,
+               ds3231_data.date, ds3231_data.month, ds3231_data.year);
+    }
 
     for (int i = 0; i < NUM_BIN_KINDS + 1; i++)
     {
         printf("Bintype %d: day: %d month: %d year: %d Interval: %d\n", i, bi[i].dd, bi[i].mm, bi[i].yy, bi[i].interval);
     }
 
-    int result = access_point();
-    printf("access_point result: %d\n", result); // shouldn't get here as access_point is infinite loop
-
     int dtc[NUM_BIN_KINDS];
-    getDaysToCollection(dtc, ds3231_data.century,ds3231_data.year, ds3231_data.month, ds3231_data.date);
+    getDaysToCollection(dtc, ds3231_data.century, ds3231_data.year, ds3231_data.month, ds3231_data.date);
 
-    for (int j = 0; j < 4; j++)
+    for (int j = 0; j < 2; j++)
     {
 
         for (int i = 0; i < NUM_BIN_KINDS; i++)
@@ -103,6 +104,15 @@ int main()
                 scrollText(s, r, g, b);
         };
     };
+
+    // Is the power on button still on?
+    // If so start web server and await new settings
+    if (!gpio_get(PowerOnButtonGPIO))
+        {
+            drawChar('~', 0, 0, 0x30); // wifi symbol
+            // access_point();
+        }
+
     // Power down
     gpio_put(stay_powered_on_PIN, 0);
     sleep_ms(500); // This seems to be necessary to keep the gpio low long enough to power down

@@ -56,7 +56,7 @@ const char *cgi_settings_handler(int iIndex, int iNumParams, char *pcParam[], ch
     }
     write_flash();
     // Send the index page back to the user
-    return "/index.shtml";
+    return "/settingssaved.html";
 }
 
 // tCGI Struct

@@ -5,7 +5,7 @@
 #include "ws2812.pio.h"
 
 #include "font.h"
-
+#include "GPIO_pin_assignments.h"
 #include "glowbit.h"
 
 #define IS_RGBW false // Glowbit uses WS2812B RGB 8 bits each ie 24 bits

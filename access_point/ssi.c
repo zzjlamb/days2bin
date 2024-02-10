@@ -11,12 +11,14 @@
 #include "flash/flash_utils.h"
 
 extern ds3231_t ds3231;
+extern char batteryVoltageStr[];
 
 // max length of the tags defaults to be 8 chars
 // LWIP_HTTPD_MAX_TAG_NAME_LEN
 const char *__not_in_flash("httpd") ssi_example_tags[] = {
-    "dttime", // 0
-    "binData" // 1
+    "dttime",        // 0
+    "binData",       // 1
+    "batteryVoltage" // 2
 };
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
@@ -32,6 +34,7 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
                            ds3231_data.hours, ds3231_data.minutes,
                            ds3231_data.date, ds3231_data.month, ds3231_data.year);
         break;
+
     case 1: /*binData*/
 
         // Bin_Info is 4 x uint8_t packed, so should be safe to cast to array of uint_8
@@ -53,12 +56,19 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
             pcInsert[binDataLen * 2 + 2] = 0;
             printed = binDataLen * 2;
         }
-        else // This appears to be the first run. No data in flash yet.
+        else
         {
+            /* This appears to be the first run. No data in flash yet. */
             printed = snprintf(pcInsert, iInsertLen, "010000000000000000000000");
         }
 
         break;
+
+    case 2: /* batteryVoltage */
+        // Return battery voltage (vSys)
+        printed = snprintf(pcInsert, iInsertLen, batteryVoltageStr);
+        break;
+
     default: /* unknown tag */
         printed = 0;
         break;

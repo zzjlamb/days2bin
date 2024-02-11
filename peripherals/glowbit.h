@@ -6,10 +6,10 @@ extern "C"
 {
 #endif
 
-    static uint32_t glowbit_GREEN = 0x00300000;
-    static uint32_t glowbit_RED = 0x00003000;
-    static uint32_t glowbit_BLUE = 0x00000030;
-    static uint32_t glowbit_YELLOW = 0x00000030;
+    #define glowbit_GREEN 0x00300000
+    #define glowbit_RED 0x00003000
+    #define glowbit_BLUE 0x00000030
+    #define glowbit_YELLOW glowbit_RED | glowbit_GREEN
 
     void glowbit_init();
     void glowbit_show();

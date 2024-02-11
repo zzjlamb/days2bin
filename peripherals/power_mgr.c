@@ -13,6 +13,7 @@ void power_mgr_init()
 
     gpio_init(PowerOnButtonGPIO);
     gpio_set_dir(PowerOnButtonGPIO, GPIO_IN);
+    gpio_set_pulls(PowerOnButtonGPIO, true, false);  // Pull up
 }
 
 // Turn of the power

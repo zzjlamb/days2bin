@@ -28,10 +28,10 @@ static inline uint32_t urgb_u32(uint8_t r, uint8_t g, uint8_t b)
            (uint32_t)(b);
 }
 
+/* Initialise the glowbit matrix    */
+/*                                  */
 void glowbit_init()
 {
-    //printf("WS2812B using GPIO %d\n", WS2812_PIN);
-
     PIO pio = pio0;
     int sm = 0;
     uint offset = pio_add_program(pio, &ws2812_program);
@@ -39,6 +39,8 @@ void glowbit_init()
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
 }
 
+/* Fill the glowbit buffer with black pixels    */
+/*                                              */
 void pattern_black()
 {
     for (int i = 0; i < NUM_ROWS; ++i)
@@ -46,6 +48,8 @@ void pattern_black()
             display_buffer[i][j] = 0;
 }
 
+/* Send the buffer to the glowbit matrix    */
+/*                                          */
 void glowbit_show()
 {
     for (int i = 0; i < NUM_ROWS; ++i)
@@ -53,12 +57,16 @@ void glowbit_show()
             put_pixel(display_buffer[i][j]);
 }
 
+/* Fill glowbit buffer with zeros and send to device    */
+/*                                                      */
 void glowbit_clearScreen()
 {
     pattern_black();
     glowbit_show();
 }
 
+/* Draw a char to the glowbit buffer    */
+/*                                      */
 void glowbit_drawChar(char ch, uint32_t colour)
 {
     if (ch > 127)
@@ -78,19 +86,21 @@ void glowbit_drawChar(char ch, uint32_t colour)
     }
 }
 
+/* Scroll text on glowbit 1 pixel to left   */
+/* Writes buffer to device immediately      */
 void glowbit_scrollText(char * text, uint32_t colour)
 {
     int textLength = strlen(text);
 
-    // do nothing if null string
+    /* Do nothing if null string */
     if (textLength == 0)
         return;
 
-    // repeat code below eight times for each character, including the terminating null
+    /* Repeat code below eight times for each character, including the terminating null */
     for (int xDone = 0; xDone < (textLength + 1) * 8; xDone++)
     {
 
-        // Shift one column to left
+        /*  Shift one column to left */
         for (int x = 1; x < 8; x++)
         {
             for (int y = 0; y < 8; y++)
@@ -100,10 +110,10 @@ void glowbit_scrollText(char * text, uint32_t colour)
         }
         char currentChar = text[xDone / 8];
         if (currentChar == 0)
-            currentChar = SPACE_CHAR; // to flush last character in string off the display
+            currentChar = SPACE_CHAR;       // to flush last character in string off the display
 
         if (currentChar > 127)
-            currentChar = '.'; // render out of range char as a '.'
+            currentChar = '.';              // render out of range char as a '.'
 
         int columnIndex = xDone % 8;
         int fMapOffset = (currentChar - SPACE_CHAR) * 8 + columnIndex;

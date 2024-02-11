@@ -18,7 +18,7 @@ extern char batteryVoltageStr[];
 const char *__not_in_flash("httpd") ssi_example_tags[] = {
     "dttime",        // 0
     "binData",       // 1
-    "batteryVoltage" // 2
+    "batVolt" // 2
 };
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)

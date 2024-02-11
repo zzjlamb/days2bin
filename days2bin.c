@@ -32,8 +32,8 @@
 
 /* Globals */
 
-ds3231_t ds3231;                // DS3231 real time clock
-char batteryVoltageStr [8]={};     // Battery voltage
+ds3231_t ds3231;                    // DS3231 real time clock
+char batteryVoltageStr [8]={};      // Battery voltage
 
 int main()
 {
@@ -66,6 +66,7 @@ int main()
     }
 
     /* Initialise ds3231 struct. */
+
     ds3231_init(&ds3231, i2c_default, DS3231_DEVICE_ADRESS, AT24C32_EEPROM_ADRESS_0);
     sleep_ms(200);
 
@@ -96,11 +97,6 @@ int main()
 
     ds3231_data_t ds3231_data = {};
     ds3231_read_current_time(&ds3231, &ds3231_data);
-
-    for (int i = 0; i < NUM_BIN_KINDS + 1; i++)
-    {
-        printf("Bintype %d: day: %d month: %d year: %d Interval: %d\n", i, bi[i].dd, bi[i].mm, bi[i].yy, bi[i].interval);
-    }
 
     if ( (bi[NUM_BIN_KINDS].interval == MAGIC_NUMBER) || (ds3231_data.year==0) )
     {
@@ -134,7 +130,7 @@ int main()
 
     if (!gpio_get(PowerOnButtonGPIO))
     {
-        glowbit_scrollText("Join Days2Bin on WiFi ...", glowbit_BLUE);
+        glowbit_scrollText("Join Days2Bin WiFi ...", glowbit_BLUE);
         glowbit_drawChar('~', glowbit_BLUE); // wifi symbol
         glowbit_show();
         access_point();

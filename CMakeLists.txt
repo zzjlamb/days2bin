@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
-set(PICO_DEOPTIMIZED_DEBUG 1)
+set(PICO_DEOPTIMIZED_DEBUG 0)
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
@@ -80,7 +80,6 @@ target_include_directories(days2bin PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(days2bin 
-        #pico_cyw43_arch_none
         pico_cyw43_arch_lwip_poll
         pico_lwip_http
         pico_ds3231

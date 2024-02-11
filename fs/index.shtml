@@ -81,7 +81,7 @@
   }
   .displayedDateTime {
     text-align: center;
-    font-size: 7vw;
+    font-size: 5vw;
   }
 </style>
 <script>
@@ -197,6 +197,7 @@
   <div class="flex-container">
     <div class="displayedDateTime">
       <div id="dtFromRTC"><!--#dttime--></div>
+      <div>Battery <!--#batVolt-->V</div>
     </div>
     <div>
       <label for="wasteDate">Next Waste Bin Day:</label>

@@ -65,11 +65,11 @@
 #define LWIP_HTTPD_DYNAMIC_HEADERS   0
 #define LWIP_HTTPD_SUPPORT_POST 0
 
-#define HTTPD_DEBUG LWIP_DBG_ON
+//#define HTTPD_DEBUG LWIP_DBG_ON
 
 
 #ifndef NDEBUG
-#define LWIP_DEBUG                  1
+#define LWIP_DEBUG                  0
 #define LWIP_STATS                  1
 #define LWIP_STATS_DISPLAY          1
 #endif

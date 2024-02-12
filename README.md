@@ -1,4 +1,4 @@
-#Days2Bin
+# Days2Bin
 
 An indicator to show number of days until different kerbside
 bins/trash/recycling etc are due to be collected.
@@ -6,14 +6,16 @@ bins/trash/recycling etc are due to be collected.
 ![title](images/IMG_8120.jpeg)
 ![title](images/IMG_8122.jpeg)
 
-Hardware - Raspberry Pi Pico W, DS3231 RTC and
+## Hardware
+
+Raspberry Pi Pico W, DS3231 RTC and
 Core Electronics GlowBit (based on WS2812 addressable LEDs).
  
 The device is powered by 3 x AAA batteries switched by a pair of logic level MOSFETs
-triggered by grounding via a momentary pushbutton, and kept alive
-by one of the Pico W GPIO's.
+triggered by grounding via a momentary pushbutton, then kept alive
+by one of the Pico W GPIO's until the Pico logic shuts it down.
 
-A separate pair of AAA batteries powers the DS3231 RTC. These should last much longer than the main batteries due to the very low current drain of the DS3231, and having them saves having to re-enter the time.
+A separate pair of AAA batteries powers the DS3231 RTC. I try to avoid button batteries for child safety reasons. These should last much longer than the main batteries due to the very low current drain of the DS3231, and having them saves having to re-enter the time.
 
 The settings are stored in a dedicated page of flash, which is reserved by a custom loader script.
 
@@ -27,7 +29,7 @@ On first use, or if the clock battery has failed, users are prompted to join the
 
 Time out for the access point is 2 minutes.
 
-This project was coded entirely in C using the Pico SDK. I originally tried to code it in MicroPython, however the startup time was several seconds, whereas the C version is virtually instant.
+This project was coded entirely in C using the Pico SDK. I originally tried to code it in MicroPython, however the startup time was several seconds, whereas the C version is virtually instantaneous.
 
 
 
